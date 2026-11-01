@@ -1,0 +1,6147 @@
+{
+ "source": "FactorioLab (https://github.com/factoriolab/factoriolab) - MIT License",
+ "gameVersion": "0.10.29.21950",
+ "generatedAt": "2026-11-01",
+ "items": [
+  {
+   "id": "tesla-tower",
+   "name": "Tesla Tower",
+   "nameZh": "电力感应塔",
+   "category": "buildings",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "wireless-power-tower",
+   "name": "Wireless Power Tower",
+   "nameZh": "无线输电塔",
+   "category": "buildings",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "satellite-substation",
+   "name": "Satellite Substation",
+   "nameZh": "卫星配电站",
+   "category": "buildings",
+   "row": 0,
+   "stack": 30
+  },
+  {
+   "id": "wind-turbine",
+   "name": "Wind Turbine",
+   "nameZh": "风力涡轮机",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "thermal-power-plant",
+   "name": "Thermal Power Plant",
+   "nameZh": "火力发电厂",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "solar-panel",
+   "name": "Solar Panel",
+   "nameZh": "太阳能板",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "geothermal-power-station",
+   "name": "Geothermal Power Station",
+   "nameZh": "地热发电站",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "mini-fusion-power-plant",
+   "name": "Mini Fusion Power Plant",
+   "nameZh": "微型聚变发电站",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "energy-exchanger",
+   "name": "Energy Exchanger",
+   "nameZh": "能量枢纽",
+   "category": "buildings",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "accumulator",
+   "name": "Accumulator",
+   "nameZh": "蓄电器",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "accumulator-full",
+   "name": "Accumulator (full)",
+   "nameZh": "蓄电器 (满)",
+   "category": "buildings",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "ray-receiver",
+   "name": "Ray Receiver",
+   "nameZh": "射线接收站",
+   "category": "buildings",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "artificial-star",
+   "name": "Artificial Star",
+   "nameZh": "人造恒星",
+   "category": "buildings",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "conveyor-belt-1",
+   "name": "Conveyor Belt MK.I",
+   "nameZh": "传送带",
+   "category": "buildings",
+   "row": 1,
+   "stack": 300
+  },
+  {
+   "id": "conveyor-belt-2",
+   "name": "Conveyor Belt MK.II",
+   "nameZh": "高速传送带",
+   "category": "buildings",
+   "row": 1,
+   "stack": 300
+  },
+  {
+   "id": "conveyor-belt-3",
+   "name": "Conveyor Belt MK.III",
+   "nameZh": "急速传送带",
+   "category": "buildings",
+   "row": 1,
+   "stack": 300
+  },
+  {
+   "id": "splitter",
+   "name": "Splitter",
+   "nameZh": "四向分流器",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "automatic-piler",
+   "name": "Automatic Piler",
+   "nameZh": "自动集装机",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "traffic-monitor",
+   "name": "Traffic Monitor",
+   "nameZh": "流速监测器",
+   "category": "buildings",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "spray-coater",
+   "name": "Spray Coater",
+   "nameZh": "喷涂机",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "storage-1",
+   "name": "Depot MK.I",
+   "nameZh": "小型储物仓",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "storage-2",
+   "name": "Depot MK.II",
+   "nameZh": "大型储物仓",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "storage-tank",
+   "name": "Storage Tank",
+   "nameZh": "储液罐",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "logistics-distributor",
+   "name": "Logistics Distributor",
+   "nameZh": "物流配送器",
+   "category": "buildings",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "planetary-logistics-station",
+   "name": "Planetary Logistics Station",
+   "nameZh": "行星内物流运输站",
+   "category": "buildings",
+   "row": 1,
+   "stack": 10
+  },
+  {
+   "id": "interstellar-logistics-station",
+   "name": "Interstellar Logistics Station",
+   "nameZh": "星际物流运输站",
+   "category": "buildings",
+   "row": 1,
+   "stack": 10
+  },
+  {
+   "id": "orbital-collector",
+   "name": "Orbital Collector",
+   "nameZh": "轨道采集器",
+   "category": "buildings",
+   "row": 1,
+   "stack": 10
+  },
+  {
+   "id": "sorter-1",
+   "name": "Sorter MK.I",
+   "nameZh": "分拣器",
+   "category": "buildings",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "sorter-2",
+   "name": "Sorter MK.II",
+   "nameZh": "高速分拣器",
+   "category": "buildings",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "sorter-3",
+   "name": "Sorter MK.III",
+   "nameZh": "急速分拣器",
+   "category": "buildings",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "sorter-4",
+   "name": "Pile Sorter",
+   "nameZh": "",
+   "category": "buildings",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "mining-machine",
+   "name": "Mining Machine",
+   "nameZh": "采矿机",
+   "category": "buildings",
+   "row": 2,
+   "stack": 50
+  },
+  {
+   "id": "advanced-mining-machine",
+   "name": "Advanced Mining Machine",
+   "nameZh": "大型采矿机",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "water-pump",
+   "name": "Water Pump",
+   "nameZh": "抽水站",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "oil-extractor",
+   "name": "Oil Extractor",
+   "nameZh": "原油萃取站",
+   "category": "buildings",
+   "row": 2,
+   "stack": 20
+  },
+  {
+   "id": "oil-refinery",
+   "name": "Oil Refinery",
+   "nameZh": "原油精炼厂",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "fractionator",
+   "name": "Fractionator",
+   "nameZh": "分馏塔",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "chemical-plant",
+   "name": "Chemical Plant",
+   "nameZh": "化工厂",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "quantum-chemical-plant",
+   "name": "Quantum Chemical Plant",
+   "nameZh": "量子化工厂",
+   "category": "buildings",
+   "row": 2,
+   "stack": 30
+  },
+  {
+   "id": "miniature-particle-collider",
+   "name": "Miniature Particle Collider",
+   "nameZh": "微型粒子对撞机",
+   "category": "buildings",
+   "row": 2,
+   "stack": 20
+  },
+  {
+   "id": "arc-smelter",
+   "name": "Arc Smelter",
+   "nameZh": "电磁熔炉",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "plane-smelter",
+   "name": "Plane Smelter",
+   "nameZh": "位面熔炉",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "df-negentropy-smelter",
+   "name": "Negentropy Smelter",
+   "nameZh": "负熵熔炉",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "assembling-machine-1",
+   "name": "Assembling Machine Mk.I",
+   "nameZh": "制造台 Mk.I",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "assembling-machine-2",
+   "name": "Assembling Machine Mk.II",
+   "nameZh": "制造台 Mk.II",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "assembling-machine-3",
+   "name": "Assembling Machine Mk.III",
+   "nameZh": "制造台 Mk.III",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "df-recomposing-assembler",
+   "name": "Re-composing Assembler",
+   "nameZh": "重组式制造台",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "matrix-lab",
+   "name": "Matrix Lab",
+   "nameZh": "矩阵研究站",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "df-self-evolution-lab",
+   "name": "Self-evolution Lab",
+   "nameZh": "自演化研究站",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "holo-beacon",
+   "name": "Holo Beacon",
+   "nameZh": "",
+   "category": "buildings",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "em-rail-ejector",
+   "name": "EM-Rail Ejector",
+   "nameZh": "电磁轨道弹射器",
+   "category": "buildings",
+   "row": 3,
+   "stack": 30
+  },
+  {
+   "id": "vertical-launching-silo",
+   "name": "Vertical Launching Silo",
+   "nameZh": "垂直发射井",
+   "category": "buildings",
+   "row": 3,
+   "stack": 10
+  },
+  {
+   "id": "df-gauss-turret",
+   "name": "Gauss Turret",
+   "nameZh": "高斯机枪塔",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-missile-turret",
+   "name": "Missile Turret",
+   "nameZh": "导弹防御塔",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-implosion-cannon",
+   "name": "Implosion Cannon",
+   "nameZh": "聚爆加农炮",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-laser-turret",
+   "name": "Laser Turret",
+   "nameZh": "高频激光塔",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-plasma-turret",
+   "name": "Plasma Turret",
+   "nameZh": "磁化电浆炮",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-plasma-turret-sr",
+   "name": "SR Plasma Turret",
+   "nameZh": "",
+   "category": "buildings",
+   "row": 4,
+   "stack": 20
+  },
+  {
+   "id": "df-battlefield-analysis-base",
+   "name": "Battlefield Analysis Base",
+   "nameZh": "战场分析基站",
+   "category": "buildings",
+   "row": 4,
+   "stack": 20
+  },
+  {
+   "id": "df-jammer-tower",
+   "name": "Jammer Tower",
+   "nameZh": "干扰塔",
+   "category": "buildings",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-signal-tower",
+   "name": "Signal Tower",
+   "nameZh": "信号塔",
+   "category": "buildings",
+   "row": 4,
+   "stack": 20
+  },
+  {
+   "id": "df-planetary-shield-generator",
+   "name": "Planetary Shield Generator",
+   "nameZh": "行星护盾发生器",
+   "category": "buildings",
+   "row": 4,
+   "stack": 20
+  },
+  {
+   "id": "iron-ore",
+   "name": "Iron Ore",
+   "nameZh": "铁矿",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "copper-ore",
+   "name": "Copper Ore",
+   "nameZh": "铜矿",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "stone",
+   "name": "Stone",
+   "nameZh": "石矿",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "coal",
+   "name": "Coal",
+   "nameZh": "煤矿",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "silicon-ore",
+   "name": "Silicon Ore",
+   "nameZh": "硅石",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "titanium-ore",
+   "name": "Titanium Ore",
+   "nameZh": "钛石",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "water",
+   "name": "Water",
+   "nameZh": "水",
+   "category": "components",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "crude-oil",
+   "name": "Crude Oil",
+   "nameZh": "原油",
+   "category": "components",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "hydrogen",
+   "name": "Hydrogen",
+   "nameZh": "氢",
+   "category": "components",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "deuterium",
+   "name": "Deuterium",
+   "nameZh": "重氢",
+   "category": "components",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "antimatter",
+   "name": "Antimatter",
+   "nameZh": "反物质",
+   "category": "components",
+   "row": 0,
+   "stack": 20
+  },
+  {
+   "id": "df-core-element",
+   "name": "Core Element",
+   "nameZh": "核心素",
+   "category": "components",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "critical-photon",
+   "name": "Critical Photon",
+   "nameZh": "临界光子",
+   "category": "components",
+   "row": 0,
+   "stack": 100
+  },
+  {
+   "id": "kimberlite-ore",
+   "name": "Kimberlite Ore",
+   "nameZh": "金伯利矿石",
+   "category": "components",
+   "row": 0,
+   "stack": 50
+  },
+  {
+   "id": "iron-ingot",
+   "name": "Iron Ingot",
+   "nameZh": "铁块",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "copper-ingot",
+   "name": "Copper Ingot",
+   "nameZh": "铜块",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "stone-brick",
+   "name": "Stone Brick",
+   "nameZh": "石材",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "energetic-graphite",
+   "name": "Energetic Graphite",
+   "nameZh": "高能石墨",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "high-purity-silicon",
+   "name": "High-purity Silicon",
+   "nameZh": "高纯硅块",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "titanium-ingot",
+   "name": "Titanium Ingot",
+   "nameZh": "钛块",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "sulfuric-acid",
+   "name": "Sulfuric Acid",
+   "nameZh": "硫酸",
+   "category": "components",
+   "row": 1,
+   "stack": 20
+  },
+  {
+   "id": "refined-oil",
+   "name": "Refined Oil",
+   "nameZh": "精炼油",
+   "category": "components",
+   "row": 1,
+   "stack": 20
+  },
+  {
+   "id": "hydrogen-fuel-rod",
+   "name": "Hydrogen Fuel Rod",
+   "nameZh": "液氢燃料棒",
+   "category": "components",
+   "row": 1,
+   "stack": 30
+  },
+  {
+   "id": "deuteron-fuel-rod",
+   "name": "Deuteron Fuel Rod",
+   "nameZh": "氘核燃料棒",
+   "category": "components",
+   "row": 1,
+   "stack": 30
+  },
+  {
+   "id": "antimatter-fuel-rod",
+   "name": "Antimatter Fuel Rod",
+   "nameZh": "反物质燃料棒",
+   "category": "components",
+   "row": 1,
+   "stack": 30
+  },
+  {
+   "id": "df-strange-annihilation-fuel-rod",
+   "name": "Strange Annihilation Fuel Rod",
+   "nameZh": "奇异湮灭燃料棒",
+   "category": "components",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "df-missile-set",
+   "name": "Missile Set",
+   "nameZh": "导弹组",
+   "category": "components",
+   "row": 1,
+   "stack": 100
+  },
+  {
+   "id": "fractal-silicon",
+   "name": "Fractal Silicon",
+   "nameZh": "分形硅石",
+   "category": "components",
+   "row": 1,
+   "stack": 50
+  },
+  {
+   "id": "magnet",
+   "name": "Magnet",
+   "nameZh": "磁铁",
+   "category": "components",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "magnetic-coil",
+   "name": "Magnetic Coil",
+   "nameZh": "磁线圈",
+   "category": "components",
+   "row": 2,
+   "stack": 200
+  },
+  {
+   "id": "glass",
+   "name": "Glass",
+   "nameZh": "玻璃",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "diamond",
+   "name": "Diamond",
+   "nameZh": "金刚石",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "crystal-silicon",
+   "name": "Crystal Silicon",
+   "nameZh": "晶格硅",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "titanium-alloy",
+   "name": "Titanium Alloy",
+   "nameZh": "钛合金",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "df-combustible-unit",
+   "name": "Combustible Unit",
+   "nameZh": "燃烧单元",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "plastic",
+   "name": "Plastic",
+   "nameZh": "塑料",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "organic-crystal",
+   "name": "Organic Crystal",
+   "nameZh": "有机晶体",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "graphene",
+   "name": "Graphene",
+   "nameZh": "石墨烯",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "annihilation-constraint-sphere",
+   "name": "Annihilation Constraint Sphere",
+   "nameZh": "湮灭约束球",
+   "category": "components",
+   "row": 2,
+   "stack": 20
+  },
+  {
+   "id": "df-magnum-ammo-box",
+   "name": "Magnum Ammo Box",
+   "nameZh": "高频激光塔 (科技)",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "df-supersonic-missile-set",
+   "name": "Supersonic Missile Set",
+   "nameZh": "超音速导弹组",
+   "category": "components",
+   "row": 2,
+   "stack": 100
+  },
+  {
+   "id": "optical-grating-crystal",
+   "name": "Grating Crystal",
+   "nameZh": "光栅石",
+   "category": "components",
+   "row": 2,
+   "stack": 50
+  },
+  {
+   "id": "steel",
+   "name": "Steel",
+   "nameZh": "钢",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "circuit-board",
+   "name": "Circuit Board",
+   "nameZh": "电路板",
+   "category": "components",
+   "row": 3,
+   "stack": 200
+  },
+  {
+   "id": "prism",
+   "name": "Prism",
+   "nameZh": "棱镜",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "electric-motor",
+   "name": "Electric Motor",
+   "nameZh": "电动机",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "microcrystalline-component",
+   "name": "Microcrystalline Component",
+   "nameZh": "微晶原件",
+   "category": "components",
+   "row": 3,
+   "stack": 200
+  },
+  {
+   "id": "proliferator-1",
+   "name": "Proliferator Mk.I",
+   "nameZh": "增产剂 Mk.I",
+   "category": "components",
+   "row": 3,
+   "stack": 200
+  },
+  {
+   "id": "df-explosive-unit",
+   "name": "Explosive Unit",
+   "nameZh": "爆破单元",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "strange-matter",
+   "name": "Strange Matter",
+   "nameZh": "奇异物质",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "titanium-crystal",
+   "name": "Titanium Crystal",
+   "nameZh": "钛晶石",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "carbon-nanotube",
+   "name": "Carbon Nanotube",
+   "nameZh": "碳纳米管",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "particle-broadband",
+   "name": "Particle Broadband",
+   "nameZh": "粒子宽带",
+   "category": "components",
+   "row": 3,
+   "stack": 200
+  },
+  {
+   "id": "df-titanium-ammo-box",
+   "name": "Titanium Ammo Box",
+   "nameZh": "钛化弹箱",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "df-gravity-missile-set",
+   "name": "Gravity Missile Set",
+   "nameZh": "引力导弹组",
+   "category": "components",
+   "row": 3,
+   "stack": 100
+  },
+  {
+   "id": "spiniform-stalagmite-crystal",
+   "name": "Stalagmite Crystal",
+   "nameZh": "刺笋结晶",
+   "category": "components",
+   "row": 3,
+   "stack": 50
+  },
+  {
+   "id": "gear",
+   "name": "Gear",
+   "nameZh": "齿轮",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "plasma-exciter",
+   "name": "Plasma Exciter",
+   "nameZh": "电浆激发器",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "photon-combiner",
+   "name": "Photon Combiner",
+   "nameZh": "光子合并器",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "electromagnetic-turbine",
+   "name": "Electromagnetic Turbine",
+   "nameZh": "电磁涡轮",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "processor",
+   "name": "Processor",
+   "nameZh": "处理器",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "proliferator-2",
+   "name": "Proliferator Mk.II",
+   "nameZh": "增产剂 Mk.II",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "df-crystal-explosive-unit",
+   "name": "Crystal Explosive Unit",
+   "nameZh": "晶石爆破单元",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "casimir-crystal",
+   "name": "Casimir Crystal",
+   "nameZh": "卡西米尔晶体",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "titanium-glass",
+   "name": "Titanium Glass",
+   "nameZh": "钛化玻璃",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "plane-filter",
+   "name": "Plane Filter",
+   "nameZh": "位面过滤器",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "quantum-chip",
+   "name": "Quantum Chip",
+   "nameZh": "量子芯片",
+   "category": "components",
+   "row": 4,
+   "stack": 200
+  },
+  {
+   "id": "df-superalloy-ammo-box",
+   "name": "Superalloy Ammo Box",
+   "nameZh": "超合金弹箱",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "df-shell-set",
+   "name": "Shell Set",
+   "nameZh": "炮弹组",
+   "category": "components",
+   "row": 4,
+   "stack": 100
+  },
+  {
+   "id": "unipolar-magnet",
+   "name": "Unipolar Magnet",
+   "nameZh": "单极磁石",
+   "category": "components",
+   "row": 4,
+   "stack": 50
+  },
+  {
+   "id": "df-engine",
+   "name": "Engine",
+   "nameZh": "动力引擎",
+   "category": "components",
+   "row": 5,
+   "stack": 200
+  },
+  {
+   "id": "thruster",
+   "name": "Thruster",
+   "nameZh": "推进器",
+   "category": "components",
+   "row": 5,
+   "stack": 200
+  },
+  {
+   "id": "reinforced-thruster",
+   "name": "Reinforced Thruster",
+   "nameZh": "加力推进器",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "super-magnetic-ring",
+   "name": "Super-magnetic Ring",
+   "nameZh": "超级磁场环",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "particle-container",
+   "name": "Particle Container",
+   "nameZh": "粒子容器",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "proliferator-3",
+   "name": "Proliferator Mk.III",
+   "nameZh": "增产剂 Mk.III",
+   "category": "components",
+   "row": 5,
+   "stack": 200
+  },
+  {
+   "id": "df-prototype",
+   "name": "Prototype",
+   "nameZh": "原型机",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "df-precision-drone",
+   "name": "Precision Drone",
+   "nameZh": "精准无人机",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "df-attack-drone",
+   "name": "Attack Drone",
+   "nameZh": "攻击无人机",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "df-corvette",
+   "name": "Corvette",
+   "nameZh": "护卫舰",
+   "category": "components",
+   "row": 5,
+   "stack": 50
+  },
+  {
+   "id": "df-destroyer",
+   "name": "Destroyer",
+   "nameZh": "驱逐舰",
+   "category": "components",
+   "row": 5,
+   "stack": 50
+  },
+  {
+   "id": "df-plasma-capsule",
+   "name": "Plasma Capsule",
+   "nameZh": "等离子胶囊",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "df-high-explosive-shell-set",
+   "name": "High-Explosive Shell Set",
+   "nameZh": "高爆炮弹组",
+   "category": "components",
+   "row": 5,
+   "stack": 100
+  },
+  {
+   "id": "fire-ice",
+   "name": "Fire Ice",
+   "nameZh": "可燃冰",
+   "category": "components",
+   "row": 5,
+   "stack": 50
+  },
+  {
+   "id": "logistics-bot",
+   "name": "Logistics Bot",
+   "nameZh": "配送运输机",
+   "category": "components",
+   "row": 6,
+   "stack": 200
+  },
+  {
+   "id": "logistics-drone",
+   "name": "Logistics Drone",
+   "nameZh": "物流运输机",
+   "category": "components",
+   "row": 6,
+   "stack": 200
+  },
+  {
+   "id": "logistics-vessel",
+   "name": "Interstellar Logistics Vessel",
+   "nameZh": "星际物流运输船",
+   "category": "components",
+   "row": 6,
+   "stack": 50
+  },
+  {
+   "id": "space-warper",
+   "name": "Space Warper",
+   "nameZh": "空间翘曲器",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "graviton-lens",
+   "name": "Graviton Lens",
+   "nameZh": "引力透镜",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "df-dark-fog-lens",
+   "name": "Dark Fog Lens",
+   "nameZh": "",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "foundation",
+   "name": "Foundation",
+   "nameZh": "地基",
+   "category": "components",
+   "row": 6,
+   "stack": 1000
+  },
+  {
+   "id": "solar-sail",
+   "name": "Solar Sail",
+   "nameZh": "太阳帆",
+   "category": "components",
+   "row": 6,
+   "stack": 200
+  },
+  {
+   "id": "frame-material",
+   "name": "Frame Material",
+   "nameZh": "框架材料",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "dyson-sphere-component",
+   "name": "Dyson Sphere Component",
+   "nameZh": "戴森球组件",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "small-carrier-rocket",
+   "name": "Small Carrier Rocket",
+   "nameZh": "小型运载火箭",
+   "category": "components",
+   "row": 6,
+   "stack": 20
+  },
+  {
+   "id": "df-antimatter-capsule",
+   "name": "Antimatter Capsule",
+   "nameZh": "反物质胶囊",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "df-crystal-shell-set",
+   "name": "Crystal Shell Set",
+   "nameZh": "晶石炮弹组",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "log",
+   "name": "Log",
+   "nameZh": "木材",
+   "category": "components",
+   "row": 6,
+   "stack": 100
+  },
+  {
+   "id": "electromagnetic-matrix",
+   "name": "Electromagnetic Matrix",
+   "nameZh": "电磁矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "energy-matrix",
+   "name": "Energy Matrix",
+   "nameZh": "能量矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "structure-matrix",
+   "name": "Structure Matrix",
+   "nameZh": "结构矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "information-matrix",
+   "name": "Information Matrix",
+   "nameZh": "信息矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "gravity-matrix",
+   "name": "Gravity Matrix",
+   "nameZh": "引力矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "universe-matrix",
+   "name": "Universe Matrix",
+   "nameZh": "宇宙矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "df-dark-fog-matrix",
+   "name": "Dark Fog Matrix",
+   "nameZh": "黑雾矩阵",
+   "category": "components",
+   "row": 7,
+   "stack": 200
+  },
+  {
+   "id": "df-energy-shard",
+   "name": "Energy Shard",
+   "nameZh": "能量碎片",
+   "category": "components",
+   "row": 7,
+   "stack": 100
+  },
+  {
+   "id": "df-silicon-based-neuron",
+   "name": "Silicon-based Neuron",
+   "nameZh": "硅基神经元",
+   "category": "components",
+   "row": 7,
+   "stack": 100
+  },
+  {
+   "id": "df-negentropy-singularity",
+   "name": "Negentropy Singularity",
+   "nameZh": "负熵奇点",
+   "category": "components",
+   "row": 7,
+   "stack": 50
+  },
+  {
+   "id": "df-matter-recombinator",
+   "name": "Matter Recombinator",
+   "nameZh": "物质重组器",
+   "category": "components",
+   "row": 7,
+   "stack": 100
+  },
+  {
+   "id": "df-jamming-capsule",
+   "name": "Jamming Capsule",
+   "nameZh": "",
+   "category": "components",
+   "row": 7,
+   "stack": 100
+  },
+  {
+   "id": "df-suppressing-capsule",
+   "name": "Suppressing Capsule",
+   "nameZh": "",
+   "category": "components",
+   "row": 7,
+   "stack": 100
+  },
+  {
+   "id": "plant-fuel",
+   "name": "Plant Fuel",
+   "nameZh": "植物燃料",
+   "category": "components",
+   "row": 7,
+   "stack": 500
+  }
+ ],
+ "recipes": [
+  {
+   "id": "tesla-tower",
+   "name": "Tesla Tower",
+   "nameZh": "电力感应塔",
+   "time": 1,
+   "in": {
+    "iron-ingot": 2,
+    "magnetic-coil": 1
+   },
+   "out": {
+    "tesla-tower": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "wireless-power-tower",
+   "name": "Wireless Power Tower",
+   "nameZh": "无线输电塔",
+   "time": 3,
+   "in": {
+    "plasma-exciter": 3,
+    "tesla-tower": 1
+   },
+   "out": {
+    "wireless-power-tower": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "satellite-substation",
+   "name": "Satellite Substation",
+   "nameZh": "卫星配电站",
+   "time": 5,
+   "in": {
+    "frame-material": 2,
+    "super-magnetic-ring": 10,
+    "wireless-power-tower": 1
+   },
+   "out": {
+    "satellite-substation": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "wind-turbine",
+   "name": "Wind Turbine",
+   "nameZh": "风力涡轮机",
+   "time": 4,
+   "in": {
+    "gear": 1,
+    "iron-ingot": 6,
+    "magnetic-coil": 3
+   },
+   "out": {
+    "wind-turbine": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "thermal-power-plant",
+   "name": "Thermal Power Plant",
+   "nameZh": "Thermal power plant",
+   "time": 5,
+   "in": {
+    "gear": 4,
+    "iron-ingot": 10,
+    "magnetic-coil": 4,
+    "stone-brick": 4
+   },
+   "out": {
+    "thermal-power-plant": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "solar-panel",
+   "name": "Solar Panel",
+   "nameZh": "太阳能板",
+   "time": 6,
+   "in": {
+    "circuit-board": 5,
+    "copper-ingot": 10,
+    "high-purity-silicon": 10
+   },
+   "out": {
+    "solar-panel": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "accumulator",
+   "name": "Accumulator",
+   "nameZh": "蓄电器",
+   "time": 3,
+   "in": {
+    "crystal-silicon": 3,
+    "iron-ingot": 6,
+    "super-magnetic-ring": 1
+   },
+   "out": {
+    "accumulator": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "geothermal-power-station",
+   "name": "Geothermal Power Station",
+   "nameZh": "地热发电站",
+   "time": 6,
+   "in": {
+    "copper-ingot": 20,
+    "photon-combiner": 4,
+    "steel": 15,
+    "super-magnetic-ring": 1
+   },
+   "out": {
+    "geothermal-power-station": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "mini-fusion-power-plant",
+   "name": "Mini Fusion Power Plant",
+   "nameZh": "微型聚变发电站",
+   "time": 10,
+   "in": {
+    "carbon-nanotube": 8,
+    "processor": 4,
+    "super-magnetic-ring": 10,
+    "titanium-alloy": 12
+   },
+   "out": {
+    "mini-fusion-power-plant": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "energy-exchanger",
+   "name": "Energy Exchanger",
+   "nameZh": "能量枢纽",
+   "time": 15,
+   "in": {
+    "particle-container": 8,
+    "processor": 40,
+    "steel": 40,
+    "titanium-alloy": 40
+   },
+   "out": {
+    "energy-exchanger": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "ray-receiver",
+   "name": "Ray Receiver",
+   "nameZh": "射线接收站",
+   "time": 8,
+   "in": {
+    "high-purity-silicon": 20,
+    "photon-combiner": 10,
+    "processor": 5,
+    "steel": 20,
+    "super-magnetic-ring": 20
+   },
+   "out": {
+    "ray-receiver": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "artificial-star",
+   "name": "Artificial Star",
+   "nameZh": "人造恒星",
+   "time": 30,
+   "in": {
+    "annihilation-constraint-sphere": 10,
+    "frame-material": 20,
+    "quantum-chip": 10,
+    "titanium-alloy": 20
+   },
+   "out": {
+    "artificial-star": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "accumulator-discharge",
+   "name": "Accumulator (Discharge)",
+   "nameZh": "蓄电器 (放电)",
+   "time": 10,
+   "in": {
+    "accumulator-full": 1
+   },
+   "out": {
+    "accumulator": 1
+   },
+   "producers": [
+    "energy-exchanger"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "accumulator-full",
+   "name": "Accumulator (full)",
+   "nameZh": "蓄电器 (充电)",
+   "time": 10,
+   "in": {
+    "accumulator": 1
+   },
+   "out": {
+    "accumulator-full": 1
+   },
+   "producers": [
+    "energy-exchanger"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "conveyor-belt-1",
+   "name": "Conveyor Belt MK.I",
+   "nameZh": "传送带",
+   "time": 1,
+   "in": {
+    "gear": 1,
+    "iron-ingot": 2
+   },
+   "out": {
+    "conveyor-belt-1": 3
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "conveyor-belt-2",
+   "name": "Conveyor Belt MK.II",
+   "nameZh": "高速传送带",
+   "time": 1,
+   "in": {
+    "conveyor-belt-1": 3,
+    "electromagnetic-turbine": 1
+   },
+   "out": {
+    "conveyor-belt-2": 3
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "conveyor-belt-3",
+   "name": "Conveyor Belt MK.III",
+   "nameZh": "急速传送带",
+   "time": 1,
+   "in": {
+    "conveyor-belt-2": 3,
+    "graphene": 1,
+    "super-magnetic-ring": 1
+   },
+   "out": {
+    "conveyor-belt-3": 3
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "splitter",
+   "name": "Splitter",
+   "nameZh": "四向分流器",
+   "time": 2,
+   "in": {
+    "circuit-board": 1,
+    "gear": 2,
+    "iron-ingot": 3
+   },
+   "out": {
+    "splitter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "automatic-piler",
+   "name": "Automatic Piler",
+   "nameZh": "自动集装机",
+   "time": 4,
+   "in": {
+    "gear": 4,
+    "processor": 2,
+    "steel": 3,
+    "super-magnetic-ring": 1
+   },
+   "out": {
+    "automatic-piler": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "traffic-monitor",
+   "name": "Traffic Monitor",
+   "nameZh": "流速监测器",
+   "time": 2,
+   "in": {
+    "circuit-board": 2,
+    "gear": 2,
+    "glass": 1,
+    "iron-ingot": 3
+   },
+   "out": {
+    "traffic-monitor": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "spray-coater",
+   "name": "Spray Coater",
+   "nameZh": "喷涂机",
+   "time": 3,
+   "in": {
+    "circuit-board": 2,
+    "microcrystalline-component": 2,
+    "plasma-exciter": 2,
+    "steel": 4
+   },
+   "out": {
+    "spray-coater": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "storage-1",
+   "name": "Depot MK.I",
+   "nameZh": "小型储物仓",
+   "time": 2,
+   "in": {
+    "iron-ingot": 4,
+    "stone-brick": 4
+   },
+   "out": {
+    "storage-1": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "storage-2",
+   "name": "Depot MK.II",
+   "nameZh": "大型储物仓",
+   "time": 4,
+   "in": {
+    "steel": 8,
+    "stone-brick": 8
+   },
+   "out": {
+    "storage-2": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "storage-tank",
+   "name": "Storage Tank",
+   "nameZh": "储液罐",
+   "time": 2,
+   "in": {
+    "glass": 4,
+    "iron-ingot": 8,
+    "stone-brick": 4
+   },
+   "out": {
+    "storage-tank": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "logistics-distributor",
+   "name": "Logistics Distributor",
+   "nameZh": "物流配送器",
+   "time": 8,
+   "in": {
+    "iron-ingot": 8,
+    "plasma-exciter": 4,
+    "processor": 4
+   },
+   "out": {
+    "logistics-distributor": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "planetary-logistics-station",
+   "name": "Planetary Logistics Station",
+   "nameZh": "行星内物流运输站",
+   "time": 20,
+   "in": {
+    "particle-container": 20,
+    "processor": 40,
+    "steel": 40,
+    "titanium-ingot": 40
+   },
+   "out": {
+    "planetary-logistics-station": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "interstellar-logistics-station",
+   "name": "Interstellar Logistics Station",
+   "nameZh": "星际物流运输站",
+   "time": 30,
+   "in": {
+    "particle-container": 20,
+    "planetary-logistics-station": 1,
+    "titanium-alloy": 40
+   },
+   "out": {
+    "interstellar-logistics-station": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "orbital-collector",
+   "name": "Orbital Collector",
+   "nameZh": "轨道采集器",
+   "time": 30,
+   "in": {
+    "accumulator-full": 20,
+    "interstellar-logistics-station": 1,
+    "reinforced-thruster": 20,
+    "super-magnetic-ring": 50
+   },
+   "out": {
+    "orbital-collector": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sorter-1",
+   "name": "Sorter MK.I",
+   "nameZh": "分拣器",
+   "time": 1,
+   "in": {
+    "circuit-board": 1,
+    "iron-ingot": 1
+   },
+   "out": {
+    "sorter-1": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sorter-2",
+   "name": "Sorter MK.II",
+   "nameZh": "高速分拣器",
+   "time": 1,
+   "in": {
+    "electric-motor": 1,
+    "sorter-1": 2
+   },
+   "out": {
+    "sorter-2": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sorter-3",
+   "name": "Sorter MK.III",
+   "nameZh": "急速分拣器",
+   "time": 1,
+   "in": {
+    "electromagnetic-turbine": 1,
+    "sorter-2": 2
+   },
+   "out": {
+    "sorter-3": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sorter-4",
+   "name": "Pile Sorter",
+   "nameZh": "",
+   "time": 1,
+   "in": {
+    "processor": 1,
+    "sorter-3": 2,
+    "super-magnetic-ring": 1
+   },
+   "out": {
+    "sorter-4": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "mining-machine",
+   "name": "Mining Machine",
+   "nameZh": "采矿机",
+   "time": 3,
+   "in": {
+    "circuit-board": 2,
+    "gear": 2,
+    "iron-ingot": 4,
+    "magnetic-coil": 2
+   },
+   "out": {
+    "mining-machine": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "advanced-mining-machine",
+   "name": "Advanced Mining Machine",
+   "nameZh": "大型采矿机",
+   "time": 20,
+   "in": {
+    "frame-material": 10,
+    "optical-grating-crystal": 40,
+    "quantum-chip": 4,
+    "super-magnetic-ring": 10,
+    "titanium-alloy": 20
+   },
+   "out": {
+    "advanced-mining-machine": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "water-pump",
+   "name": "Water Pump",
+   "nameZh": "抽水站",
+   "time": 4,
+   "in": {
+    "circuit-board": 2,
+    "electric-motor": 4,
+    "iron-ingot": 8,
+    "stone-brick": 4
+   },
+   "out": {
+    "water-pump": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "oil-extractor",
+   "name": "Oil Extractor",
+   "nameZh": "原油萃取站",
+   "time": 8,
+   "in": {
+    "circuit-board": 6,
+    "plasma-exciter": 4,
+    "steel": 12,
+    "stone-brick": 12
+   },
+   "out": {
+    "oil-extractor": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "oil-refinery",
+   "name": "Oil Refinery",
+   "nameZh": "原油精炼厂",
+   "time": 6,
+   "in": {
+    "circuit-board": 6,
+    "plasma-exciter": 6,
+    "steel": 10,
+    "stone-brick": 10
+   },
+   "out": {
+    "oil-refinery": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "fractionator",
+   "name": "Fractionator",
+   "nameZh": "分馏塔",
+   "time": 3,
+   "in": {
+    "glass": 4,
+    "processor": 1,
+    "steel": 8,
+    "stone-brick": 4
+   },
+   "out": {
+    "fractionator": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "chemical-plant",
+   "name": "Chemical Plant",
+   "nameZh": "化工厂",
+   "time": 5,
+   "in": {
+    "circuit-board": 2,
+    "glass": 8,
+    "steel": 8,
+    "stone-brick": 8
+   },
+   "out": {
+    "chemical-plant": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "quantum-chemical-plant",
+   "name": "Quantum Chemical Plant",
+   "nameZh": "量子化工厂",
+   "time": 10,
+   "in": {
+    "chemical-plant": 1,
+    "quantum-chip": 3,
+    "strange-matter": 3,
+    "titanium-glass": 10
+   },
+   "out": {
+    "quantum-chemical-plant": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "miniature-particle-collider",
+   "name": "Miniature Particle Collider",
+   "nameZh": "微型粒子对撞机",
+   "time": 15,
+   "in": {
+    "frame-material": 20,
+    "graphene": 10,
+    "processor": 8,
+    "super-magnetic-ring": 25,
+    "titanium-alloy": 20
+   },
+   "out": {
+    "miniature-particle-collider": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "arc-smelter",
+   "name": "Arc Smelter",
+   "nameZh": "电磁熔炉",
+   "time": 3,
+   "in": {
+    "circuit-board": 4,
+    "iron-ingot": 4,
+    "magnetic-coil": 2,
+    "stone-brick": 2
+   },
+   "out": {
+    "arc-smelter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "plane-smelter",
+   "name": "Plane Smelter",
+   "nameZh": "位面熔炉",
+   "time": 5,
+   "in": {
+    "arc-smelter": 1,
+    "frame-material": 5,
+    "plane-filter": 4,
+    "unipolar-magnet": 15
+   },
+   "out": {
+    "plane-smelter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-negentropy-smelter",
+   "name": "Negentropy Smelter",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "df-energy-shard": 30,
+    "df-negentropy-singularity": 10,
+    "plane-smelter": 1,
+    "quantum-chip": 4
+   },
+   "out": {
+    "df-negentropy-smelter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "assembling-machine-1",
+   "name": "Assembling Machine Mk.I",
+   "nameZh": "制造台 Mk.I",
+   "time": 2,
+   "in": {
+    "circuit-board": 4,
+    "gear": 8,
+    "iron-ingot": 4
+   },
+   "out": {
+    "assembling-machine-1": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "assembling-machine-2",
+   "name": "Assembling Machine Mk.II",
+   "nameZh": "制造台 Mk.II",
+   "time": 3,
+   "in": {
+    "assembling-machine-1": 1,
+    "graphene": 8,
+    "processor": 4
+   },
+   "out": {
+    "assembling-machine-2": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "assembling-machine-3",
+   "name": "Assembling Machine Mk.III",
+   "nameZh": "制造台 Mk.III",
+   "time": 4,
+   "in": {
+    "assembling-machine-2": 1,
+    "particle-broadband": 8,
+    "quantum-chip": 2
+   },
+   "out": {
+    "assembling-machine-3": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-recomposing-assembler",
+   "name": "Re-composing Assembler",
+   "nameZh": "",
+   "time": 5,
+   "in": {
+    "assembling-machine-3": 1,
+    "df-energy-shard": 30,
+    "df-matter-recombinator": 10,
+    "quantum-chip": 4
+   },
+   "out": {
+    "df-recomposing-assembler": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "matrix-lab",
+   "name": "Matrix Lab",
+   "nameZh": "矩阵研究站",
+   "time": 3,
+   "in": {
+    "circuit-board": 4,
+    "glass": 4,
+    "iron-ingot": 8,
+    "magnetic-coil": 4
+   },
+   "out": {
+    "matrix-lab": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-self-evolution-lab",
+   "name": "Self-evolution Lab",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "df-dark-fog-matrix": 20,
+    "df-silicon-based-neuron": 10,
+    "matrix-lab": 1,
+    "quantum-chip": 4
+   },
+   "out": {
+    "df-self-evolution-lab": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "holo-beacon",
+   "name": "Holo Beacon",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "iron-ingot": 3,
+    "prism": 4,
+    "plasma-exciter": 2,
+    "circuit-board": 2
+   },
+   "out": {
+    "holo-beacon": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "em-rail-ejector",
+   "name": "EM-Rail Ejector",
+   "nameZh": "电磁轨道弹射器",
+   "time": 6,
+   "in": {
+    "gear": 20,
+    "processor": 5,
+    "steel": 20,
+    "super-magnetic-ring": 10
+   },
+   "out": {
+    "em-rail-ejector": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "vertical-launching-silo",
+   "name": "Vertical Launching Silo",
+   "nameZh": "垂直发射井",
+   "time": 30,
+   "in": {
+    "frame-material": 30,
+    "graviton-lens": 20,
+    "quantum-chip": 10,
+    "titanium-alloy": 80
+   },
+   "out": {
+    "vertical-launching-silo": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-gauss-turret",
+   "name": "Gauss Turret",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "circuit-board": 2,
+    "gear": 8,
+    "iron-ingot": 8,
+    "magnetic-coil": 4
+   },
+   "out": {
+    "df-gauss-turret": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-missile-turret",
+   "name": "Missile Turret",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "circuit-board": 12,
+    "df-engine": 6,
+    "electric-motor": 6,
+    "steel": 8
+   },
+   "out": {
+    "df-missile-turret": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-implosion-cannon",
+   "name": "Implosion Cannon",
+   "nameZh": "",
+   "time": 5,
+   "in": {
+    "circuit-board": 10,
+    "electric-motor": 8,
+    "steel": 10,
+    "super-magnetic-ring": 2
+   },
+   "out": {
+    "df-implosion-cannon": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-laser-turret",
+   "name": "Laser Turret",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "circuit-board": 6,
+    "photon-combiner": 9,
+    "plasma-exciter": 6,
+    "steel": 9
+   },
+   "out": {
+    "df-laser-turret": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-plasma-turret",
+   "name": "Plasma Turret",
+   "nameZh": "",
+   "time": 10,
+   "in": {
+    "plasma-exciter": 5,
+    "processor": 5,
+    "super-magnetic-ring": 10,
+    "titanium-alloy": 20,
+    "titanium-glass": 10
+   },
+   "out": {
+    "df-plasma-turret": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-plasma-turret-sr",
+   "name": "SR Plasma Turret",
+   "nameZh": "",
+   "time": 8,
+   "in": {
+    "plasma-exciter": 5,
+    "processor": 5,
+    "steel": 15,
+    "super-magnetic-ring": 5
+   },
+   "out": {
+    "df-plasma-turret-sr": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-battlefield-analysis-base",
+   "name": "Battlefield Analysis Base",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "circuit-board": 18,
+    "df-engine": 12,
+    "microcrystalline-component": 6,
+    "steel": 12
+   },
+   "out": {
+    "df-battlefield-analysis-base": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-jammer-tower",
+   "name": "Jammer Tower",
+   "nameZh": "",
+   "time": 5,
+   "in": {
+    "copper-ingot": 12,
+    "diamond": 6,
+    "plasma-exciter": 9,
+    "processor": 3
+   },
+   "out": {
+    "df-jammer-tower": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-signal-tower",
+   "name": "Signal Tower",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "crystal-silicon": 6,
+    "steel": 12,
+    "wireless-power-tower": 2
+   },
+   "out": {
+    "df-signal-tower": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-planetary-shield-generator",
+   "name": "Planetary Shield Generator",
+   "nameZh": "",
+   "time": 10,
+   "in": {
+    "electromagnetic-turbine": 20,
+    "particle-container": 5,
+    "steel": 20,
+    "super-magnetic-ring": 5
+   },
+   "out": {
+    "df-planetary-shield-generator": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "iron-ingot",
+   "name": "Iron Ingot",
+   "nameZh": "铁块",
+   "time": 1,
+   "in": {
+    "iron-ore": 1
+   },
+   "out": {
+    "iron-ingot": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "copper-ingot",
+   "name": "Copper Ingot",
+   "nameZh": "铜块",
+   "time": 1,
+   "in": {
+    "copper-ore": 1
+   },
+   "out": {
+    "copper-ingot": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "high-purity-silicon",
+   "name": "High-purity Silicon",
+   "nameZh": "高纯硅块",
+   "time": 2,
+   "in": {
+    "silicon-ore": 2
+   },
+   "out": {
+    "high-purity-silicon": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "titanium-ingot",
+   "name": "Titanium Ingot",
+   "nameZh": "钛块",
+   "time": 2,
+   "in": {
+    "titanium-ore": 2
+   },
+   "out": {
+    "titanium-ingot": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "stone-brick",
+   "name": "Stone Brick",
+   "nameZh": "石材",
+   "time": 1,
+   "in": {
+    "stone": 1
+   },
+   "out": {
+    "stone-brick": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "energetic-graphite",
+   "name": "Energetic Graphite",
+   "nameZh": "高能石墨",
+   "time": 2,
+   "in": {
+    "coal": 2
+   },
+   "out": {
+    "energetic-graphite": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "plasma-refining",
+   "name": "Plasma Refining",
+   "nameZh": "等离子精炼",
+   "time": 4,
+   "in": {
+    "crude-oil": 2
+   },
+   "out": {
+    "hydrogen": 1,
+    "refined-oil": 2
+   },
+   "producers": [
+    "oil-refinery"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "graphene",
+   "name": "Graphene",
+   "nameZh": "石墨烯",
+   "time": 3,
+   "in": {
+    "energetic-graphite": 3,
+    "sulfuric-acid": 1
+   },
+   "out": {
+    "graphene": 2
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "plastic",
+   "name": "Plastic",
+   "nameZh": "塑料",
+   "time": 3,
+   "in": {
+    "energetic-graphite": 1,
+    "refined-oil": 2
+   },
+   "out": {
+    "plastic": 1
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "proliferator-1",
+   "name": "Proliferator Mk.I",
+   "nameZh": "增产剂 Mk.I",
+   "time": 0.5,
+   "in": {
+    "coal": 1
+   },
+   "out": {
+    "proliferator-1": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "proliferator-2",
+   "name": "Proliferator Mk.II",
+   "nameZh": "增产剂 Mk.II",
+   "time": 1,
+   "in": {
+    "diamond": 1,
+    "proliferator-1": 2
+   },
+   "out": {
+    "proliferator-2": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "proliferator-3",
+   "name": "Proliferator Mk.III",
+   "nameZh": "增产剂 Mk.III",
+   "time": 2,
+   "in": {
+    "carbon-nanotube": 1,
+    "proliferator-2": 2
+   },
+   "out": {
+    "proliferator-3": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-magnum-ammo-box",
+   "name": "Magnum Ammo Box",
+   "nameZh": "",
+   "time": 1,
+   "in": {
+    "copper-ingot": 3
+   },
+   "out": {
+    "df-magnum-ammo-box": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-missile-set",
+   "name": "Missile Set",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "circuit-board": 3,
+    "copper-ingot": 6,
+    "df-combustible-unit": 2,
+    "df-engine": 1
+   },
+   "out": {
+    "df-missile-set": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "coal-vein",
+   "name": "Coal Veins",
+   "nameZh": "煤矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "coal": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "copper-vein",
+   "name": "Copper Veins",
+   "nameZh": "铜矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "copper-ore": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "critical-photon",
+   "name": "Critical Photon",
+   "nameZh": "临界光子",
+   "time": 60,
+   "in": {},
+   "out": {
+    "critical-photon": 6
+   },
+   "producers": [
+    "ray-receiver"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "critical-photon-graviton",
+   "name": "Critical Photon (Graviton Lens)",
+   "nameZh": "射线接收站 (带引力透镜) 生成光子",
+   "time": 60,
+   "in": {},
+   "out": {
+    "critical-photon": 12
+   },
+   "producers": [
+    "ray-receiver-pro"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": true
+  },
+  {
+   "id": "critical-photon-dark-fog",
+   "name": "Critical Photon (Dark Fog Lens)",
+   "nameZh": "",
+   "time": 60,
+   "in": {},
+   "out": {
+    "critical-photon": 24
+   },
+   "producers": [
+    "ray-receiver-dark-fog"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": true
+  },
+  {
+   "id": "crude-oil-seep",
+   "name": "Crude Oil Seep",
+   "nameZh": "原油涌泉",
+   "time": 1,
+   "in": {},
+   "out": {
+    "crude-oil": 1
+   },
+   "producers": [
+    "oil-extractor"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "fire-ice-vein",
+   "name": "Fire Ice Vein",
+   "nameZh": "可燃冰矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "fire-ice": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "fractal-silicon-vein",
+   "name": "Fractal Silicon Veins",
+   "nameZh": "分形硅矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "fractal-silicon": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "iron-vein",
+   "name": "Iron Veins",
+   "nameZh": "铁矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "iron-ore": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "kimberlite-vein",
+   "name": "Kimberlite Veins",
+   "nameZh": "金伯利矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "kimberlite-ore": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "ocean",
+   "name": "Ocean",
+   "nameZh": "海洋",
+   "time": 1.2,
+   "in": {},
+   "out": {
+    "water": 1
+   },
+   "producers": [
+    "water-pump"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "optical-grating-crystal-vein",
+   "name": "Grating Crystal Vein",
+   "nameZh": "光栅石矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "optical-grating-crystal": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "organic-crystal-vein",
+   "name": "Organic Crystal Veins",
+   "nameZh": "有机晶体矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "organic-crystal": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "silicium-vein",
+   "name": "Silicon Veins",
+   "nameZh": "硅矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "silicon-ore": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "spiniform-stalagmite-crystal-vein",
+   "name": "Stalagmite Crystal Vein",
+   "nameZh": "刺笋矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "spiniform-stalagmite-crystal": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "stone-vein",
+   "name": "Stone Veins",
+   "nameZh": "石矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "stone": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sulphuric-acid-vein",
+   "name": "Sulphuric Acid Ocean",
+   "nameZh": "硫酸海洋",
+   "time": 1.2,
+   "in": {},
+   "out": {
+    "sulfuric-acid": 1
+   },
+   "producers": [
+    "water-pump"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "titanium-vein",
+   "name": "Titanium Veins",
+   "nameZh": "钛矿脉",
+   "time": 2,
+   "in": {},
+   "out": {
+    "titanium-ore": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "unipolar-magnet-vein",
+   "name": "Unipolar Magnet Veins",
+   "nameZh": "单极磁矿",
+   "time": 2,
+   "in": {},
+   "out": {
+    "unipolar-magnet": 1
+   },
+   "producers": [
+    "mining-machine",
+    "advanced-mining-machine"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "magnet",
+   "name": "Magnet",
+   "nameZh": "磁铁",
+   "time": 1.5,
+   "in": {
+    "iron-ore": 1
+   },
+   "out": {
+    "magnet": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "magnetic-coil",
+   "name": "Magnetic Coil",
+   "nameZh": "磁线圈",
+   "time": 1,
+   "in": {
+    "copper-ingot": 1,
+    "magnet": 2
+   },
+   "out": {
+    "magnetic-coil": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "crystal-silicon",
+   "name": "Crystal Silicon",
+   "nameZh": "晶格硅",
+   "time": 2,
+   "in": {
+    "high-purity-silicon": 1
+   },
+   "out": {
+    "crystal-silicon": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "titanium-alloy",
+   "name": "Titanium Alloy",
+   "nameZh": "钛合金",
+   "time": 12,
+   "in": {
+    "steel": 4,
+    "sulfuric-acid": 8,
+    "titanium-ingot": 4
+   },
+   "out": {
+    "titanium-alloy": 4
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "glass",
+   "name": "Glass",
+   "nameZh": "玻璃",
+   "time": 2,
+   "in": {
+    "stone": 2
+   },
+   "out": {
+    "glass": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "diamond",
+   "name": "Diamond",
+   "nameZh": "金刚石",
+   "time": 2,
+   "in": {
+    "energetic-graphite": 1
+   },
+   "out": {
+    "diamond": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "x-ray-cracking",
+   "name": "X-ray Cracking",
+   "nameZh": "X射线裂解",
+   "time": 4,
+   "in": {
+    "hydrogen": 2,
+    "refined-oil": 1
+   },
+   "out": {
+    "energetic-graphite": 1,
+    "hydrogen": 3
+   },
+   "producers": [
+    "oil-refinery"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": true
+  },
+  {
+   "id": "graphene-advanced",
+   "name": "Graphene (advanced)",
+   "nameZh": "石墨烯 (高效)",
+   "time": 2,
+   "in": {
+    "fire-ice": 2
+   },
+   "out": {
+    "graphene": 2,
+    "hydrogen": 1
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "organic-crystal",
+   "name": "Organic Crystal",
+   "nameZh": "有机晶体",
+   "time": 6,
+   "in": {
+    "plastic": 2,
+    "refined-oil": 1,
+    "water": 1
+   },
+   "out": {
+    "organic-crystal": 1
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-combustible-unit",
+   "name": "Combustible Unit",
+   "nameZh": "",
+   "time": 3,
+   "in": {
+    "coal": 3
+   },
+   "out": {
+    "df-combustible-unit": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-explosive-unit",
+   "name": "Explosive Unit",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "df-combustible-unit": 2,
+    "plastic": 2,
+    "sulfuric-acid": 1
+   },
+   "out": {
+    "df-explosive-unit": 2
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-crystal-explosive-unit",
+   "name": "Crystal Explosive Unit",
+   "nameZh": "",
+   "time": 24,
+   "in": {
+    "casimir-crystal": 1,
+    "crystal-silicon": 8,
+    "df-explosive-unit": 8
+   },
+   "out": {
+    "df-crystal-explosive-unit": 8
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-titanium-ammo-box",
+   "name": "Titanium Ammo Box",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "df-magnum-ammo-box": 1,
+    "titanium-ingot": 2
+   },
+   "out": {
+    "df-titanium-ammo-box": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-supersonic-missile-set",
+   "name": "Supersonic Missile Set",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "df-explosive-unit": 4,
+    "df-missile-set": 2,
+    "processor": 4,
+    "thruster": 2
+   },
+   "out": {
+    "df-supersonic-missile-set": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "steel",
+   "name": "Steel",
+   "nameZh": "钢",
+   "time": 3,
+   "in": {
+    "iron-ingot": 3
+   },
+   "out": {
+    "steel": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "electric-motor",
+   "name": "Electric Motor",
+   "nameZh": "电动机",
+   "time": 2,
+   "in": {
+    "gear": 1,
+    "iron-ingot": 2,
+    "magnetic-coil": 1
+   },
+   "out": {
+    "electric-motor": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "crystal-silicon-advanced",
+   "name": "Crystal Silicon (advanced)",
+   "nameZh": "晶格硅 (高效)",
+   "time": 1.5,
+   "in": {
+    "fractal-silicon": 1
+   },
+   "out": {
+    "crystal-silicon": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "titanium-glass",
+   "name": "Titanium Glass",
+   "nameZh": "钛化玻璃",
+   "time": 5,
+   "in": {
+    "glass": 2,
+    "titanium-ingot": 2,
+    "water": 2
+   },
+   "out": {
+    "titanium-glass": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "prism",
+   "name": "Prism",
+   "nameZh": "棱镜",
+   "time": 2,
+   "in": {
+    "glass": 3
+   },
+   "out": {
+    "prism": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "diamond-advanced",
+   "name": "Diamond (advanced)",
+   "nameZh": "金刚石 (高效)",
+   "time": 1.5,
+   "in": {
+    "kimberlite-ore": 1
+   },
+   "out": {
+    "diamond": 2
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "reforming-refine",
+   "name": "Reformed Refinement",
+   "nameZh": "重整精炼",
+   "time": 4,
+   "in": {
+    "coal": 1,
+    "hydrogen": 1,
+    "refined-oil": 2
+   },
+   "out": {
+    "refined-oil": 3
+   },
+   "producers": [
+    "oil-refinery"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "titanium-crystal",
+   "name": "Titanium Crystal",
+   "nameZh": "钛晶石",
+   "time": 4,
+   "in": {
+    "organic-crystal": 1,
+    "titanium-ingot": 3
+   },
+   "out": {
+    "titanium-crystal": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "organic-crystal-original",
+   "name": "Organic Crystal (original)",
+   "nameZh": "有机晶体 (原始)",
+   "time": 6,
+   "in": {
+    "log": 20,
+    "plant-fuel": 30,
+    "water": 10
+   },
+   "out": {
+    "organic-crystal": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "df-engine",
+   "name": "Engine",
+   "nameZh": "",
+   "time": 3,
+   "in": {
+    "copper-ingot": 2,
+    "magnetic-coil": 1
+   },
+   "out": {
+    "df-engine": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "thruster",
+   "name": " - Thruster",
+   "nameZh": "推进器",
+   "time": 4,
+   "in": {
+    "copper-ingot": 3,
+    "steel": 2
+   },
+   "out": {
+    "thruster": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "reinforced-thruster",
+   "name": "Reinforced Thruster",
+   "nameZh": "加力推进器",
+   "time": 6,
+   "in": {
+    "electromagnetic-turbine": 5,
+    "titanium-alloy": 5
+   },
+   "out": {
+    "reinforced-thruster": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-superalloy-ammo-box",
+   "name": "Superalloy Ammo Box",
+   "nameZh": "",
+   "time": 3,
+   "in": {
+    "df-titanium-ammo-box": 1,
+    "titanium-alloy": 1
+   },
+   "out": {
+    "df-superalloy-ammo-box": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-gravity-missile-set",
+   "name": "Gravity Missile Set",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "df-crystal-explosive-unit": 6,
+    "df-supersonic-missile-set": 3,
+    "strange-matter": 3
+   },
+   "out": {
+    "df-gravity-missile-set": 3
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "gear",
+   "name": "Gear",
+   "nameZh": "齿轮",
+   "time": 1,
+   "in": {
+    "iron-ingot": 1
+   },
+   "out": {
+    "gear": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "electromagnetic-turbine",
+   "name": "Electromagnetic Turbine",
+   "nameZh": "电磁涡轮",
+   "time": 2,
+   "in": {
+    "electric-motor": 2,
+    "magnetic-coil": 2
+   },
+   "out": {
+    "electromagnetic-turbine": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "silicon-ore",
+   "name": "Silicon Ore",
+   "nameZh": "硅石",
+   "time": 10,
+   "in": {
+    "stone": 10
+   },
+   "out": {
+    "silicon-ore": 1
+   },
+   "producers": [
+    "arc-smelter",
+    "plane-smelter",
+    "df-negentropy-smelter"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "circuit-board",
+   "name": "Circuit Board",
+   "nameZh": "电路板",
+   "time": 1,
+   "in": {
+    "copper-ingot": 1,
+    "iron-ingot": 2
+   },
+   "out": {
+    "circuit-board": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "graviton-lens",
+   "name": "Graviton Lens",
+   "nameZh": "引力透镜",
+   "time": 6,
+   "in": {
+    "diamond": 4,
+    "strange-matter": 1
+   },
+   "out": {
+    "graviton-lens": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-dark-fog-lens",
+   "name": "Dark Fog Lens",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "graviton-lens": 1,
+    "df-dark-fog-matrix": 12
+   },
+   "out": {
+    "df-dark-fog-lens": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "sulfuric-acid",
+   "name": "Sulfuric Acid",
+   "nameZh": "硫酸",
+   "time": 6,
+   "in": {
+    "refined-oil": 6,
+    "stone": 8,
+    "water": 4
+   },
+   "out": {
+    "sulfuric-acid": 4
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "deuterium-fractionation",
+   "name": "Deuterium Fractionation",
+   "nameZh": "重氢分馏",
+   "time": 1,
+   "in": {
+    "hydrogen": 0.01
+   },
+   "out": {
+    "deuterium": 0.01
+   },
+   "producers": [
+    "fractionator"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "carbon-nanotube",
+   "name": "Carbon Nanotube",
+   "nameZh": "碳纳米管",
+   "time": 4,
+   "in": {
+    "graphene": 3,
+    "titanium-ingot": 1
+   },
+   "out": {
+    "carbon-nanotube": 2
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "strange-matter",
+   "name": "Strange Matter",
+   "nameZh": "奇异物质",
+   "time": 8,
+   "in": {
+    "deuterium": 10,
+    "iron-ingot": 2,
+    "particle-container": 2
+   },
+   "out": {
+    "strange-matter": 1
+   },
+   "producers": [
+    "miniature-particle-collider"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "logistics-bot",
+   "name": "Logistics Bot",
+   "nameZh": "配送运输机",
+   "time": 2,
+   "in": {
+    "df-engine": 1,
+    "iron-ingot": 2,
+    "processor": 1
+   },
+   "out": {
+    "logistics-bot": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "logistics-drone",
+   "name": "Logistics Drone",
+   "nameZh": "物流运输机",
+   "time": 4,
+   "in": {
+    "iron-ingot": 5,
+    "processor": 2,
+    "thruster": 2
+   },
+   "out": {
+    "logistics-drone": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "logistics-vessel",
+   "name": "Interstellar Logistics Vessel",
+   "nameZh": "星际物流运输船",
+   "time": 6,
+   "in": {
+    "processor": 10,
+    "reinforced-thruster": 2,
+    "titanium-alloy": 10
+   },
+   "out": {
+    "logistics-vessel": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-plasma-capsule",
+   "name": "Plasma Capsule",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "deuterium": 10,
+    "graphene": 1,
+    "magnet": 2
+   },
+   "out": {
+    "df-plasma-capsule": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-shell-set",
+   "name": "Shell Set",
+   "nameZh": "",
+   "time": 1.5,
+   "in": {
+    "copper-ingot": 9,
+    "df-combustible-unit": 2
+   },
+   "out": {
+    "df-shell-set": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "plasma-exciter",
+   "name": "Plasma Exciter",
+   "nameZh": "电浆激发器",
+   "time": 2,
+   "in": {
+    "magnetic-coil": 4,
+    "prism": 2
+   },
+   "out": {
+    "plasma-exciter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "super-magnetic-ring",
+   "name": "Super-magnetic Ring",
+   "nameZh": "超级磁场环",
+   "time": 3,
+   "in": {
+    "electromagnetic-turbine": 2,
+    "energetic-graphite": 1,
+    "magnet": 3
+   },
+   "out": {
+    "super-magnetic-ring": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "particle-broadband",
+   "name": "Particle Broadband",
+   "nameZh": "粒子宽带",
+   "time": 8,
+   "in": {
+    "carbon-nanotube": 2,
+    "crystal-silicon": 2,
+    "plastic": 1
+   },
+   "out": {
+    "particle-broadband": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "processor",
+   "name": "Processor",
+   "nameZh": "处理器",
+   "time": 3,
+   "in": {
+    "circuit-board": 2,
+    "microcrystalline-component": 2
+   },
+   "out": {
+    "processor": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "casimir-crystal",
+   "name": "Casimir Crystal",
+   "nameZh": "卡西米尔晶体",
+   "time": 4,
+   "in": {
+    "graphene": 2,
+    "hydrogen": 12,
+    "titanium-crystal": 1
+   },
+   "out": {
+    "casimir-crystal": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "particle-container",
+   "name": "Particle Container",
+   "nameZh": "粒子容器",
+   "time": 4,
+   "in": {
+    "copper-ingot": 2,
+    "electromagnetic-turbine": 2,
+    "graphene": 2
+   },
+   "out": {
+    "particle-container": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "deuterium",
+   "name": "Deuterium",
+   "nameZh": "重氢",
+   "time": 2.5,
+   "in": {
+    "hydrogen": 10
+   },
+   "out": {
+    "deuterium": 5
+   },
+   "producers": [
+    "miniature-particle-collider"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "carbon-nanotube-advanced",
+   "name": "Carbon Nanotube (advanced)",
+   "nameZh": "碳纳米管 (高效)",
+   "time": 4,
+   "in": {
+    "spiniform-stalagmite-crystal": 6
+   },
+   "out": {
+    "carbon-nanotube": 2
+   },
+   "producers": [
+    "chemical-plant",
+    "quantum-chemical-plant"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "solar-sail",
+   "name": "Solar Sail",
+   "nameZh": "太阳帆",
+   "time": 4,
+   "in": {
+    "graphene": 1,
+    "photon-combiner": 1
+   },
+   "out": {
+    "solar-sail": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "frame-material",
+   "name": "Frame Material",
+   "nameZh": "框架材料",
+   "time": 6,
+   "in": {
+    "carbon-nanotube": 4,
+    "high-purity-silicon": 1,
+    "titanium-alloy": 1
+   },
+   "out": {
+    "frame-material": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "dyson-sphere-component",
+   "name": "Dyson Sphere Component",
+   "nameZh": "戴森球组件",
+   "time": 8,
+   "in": {
+    "frame-material": 3,
+    "processor": 3,
+    "solar-sail": 3
+   },
+   "out": {
+    "dyson-sphere-component": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "small-carrier-rocket",
+   "name": "Small Carrier Rocket",
+   "nameZh": "小型运载火箭",
+   "time": 6,
+   "in": {
+    "deuteron-fuel-rod": 4,
+    "dyson-sphere-component": 2,
+    "quantum-chip": 2
+   },
+   "out": {
+    "small-carrier-rocket": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-antimatter-capsule",
+   "name": "Antimatter Capsule",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "antimatter": 10,
+    "df-plasma-capsule": 1,
+    "hydrogen": 10,
+    "particle-container": 1
+   },
+   "out": {
+    "df-antimatter-capsule": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-high-explosive-shell-set",
+   "name": "High-Explosive Shell Set",
+   "nameZh": "",
+   "time": 3,
+   "in": {
+    "df-explosive-unit": 2,
+    "df-shell-set": 1,
+    "titanium-ingot": 6
+   },
+   "out": {
+    "df-high-explosive-shell-set": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "photon-combiner",
+   "name": "Photon Combiner",
+   "nameZh": "光子合并器",
+   "time": 3,
+   "in": {
+    "circuit-board": 1,
+    "prism": 2
+   },
+   "out": {
+    "photon-combiner": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "photon-combiner-advanced",
+   "name": "Photon Combiner (advanced)",
+   "nameZh": "光子合并器 (高效)",
+   "time": 3,
+   "in": {
+    "circuit-board": 1,
+    "optical-grating-crystal": 1
+   },
+   "out": {
+    "photon-combiner": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "microcrystalline-component",
+   "name": "Microcrystalline Component",
+   "nameZh": "微晶原件",
+   "time": 2,
+   "in": {
+    "copper-ingot": 1,
+    "high-purity-silicon": 2
+   },
+   "out": {
+    "microcrystalline-component": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "quantum-chip",
+   "name": "Quantum Chip",
+   "nameZh": "量子芯片",
+   "time": 6,
+   "in": {
+    "plane-filter": 2,
+    "processor": 2
+   },
+   "out": {
+    "quantum-chip": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "casimir-crystal-advanced",
+   "name": "Casimir Crystal (advanced)",
+   "nameZh": "卡西米尔晶体 (高效)",
+   "time": 4,
+   "in": {
+    "graphene": 2,
+    "hydrogen": 12,
+    "optical-grating-crystal": 8
+   },
+   "out": {
+    "casimir-crystal": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "particle-container-advanced",
+   "name": "Particle Container (advanced)",
+   "nameZh": "粒子容器 (高效)",
+   "time": 4,
+   "in": {
+    "copper-ingot": 2,
+    "unipolar-magnet": 10
+   },
+   "out": {
+    "particle-container": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "plane-filter",
+   "name": "Plane Filter",
+   "nameZh": "位面过滤器",
+   "time": 12,
+   "in": {
+    "casimir-crystal": 1,
+    "titanium-glass": 2
+   },
+   "out": {
+    "plane-filter": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "annihilation-constraint-sphere",
+   "name": "Annihilation Constraint Sphere",
+   "nameZh": "湮灭约束球",
+   "time": 20,
+   "in": {
+    "particle-container": 1,
+    "processor": 1
+   },
+   "out": {
+    "annihilation-constraint-sphere": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "hydrogen-fuel-rod",
+   "name": "Hydrogen Fuel Rod",
+   "nameZh": "液氢燃料棒",
+   "time": 6,
+   "in": {
+    "hydrogen": 10,
+    "titanium-ingot": 1
+   },
+   "out": {
+    "hydrogen-fuel-rod": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "deuteron-fuel-rod",
+   "name": "Deuteron Fuel Rod",
+   "nameZh": "氘核燃料棒",
+   "time": 12,
+   "in": {
+    "deuterium": 20,
+    "super-magnetic-ring": 1,
+    "titanium-alloy": 1
+   },
+   "out": {
+    "deuteron-fuel-rod": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "antimatter-fuel-rod",
+   "name": "Antimatter Fuel Rod",
+   "nameZh": "反物质燃料棒",
+   "time": 24,
+   "in": {
+    "annihilation-constraint-sphere": 1,
+    "antimatter": 12,
+    "hydrogen": 12,
+    "titanium-alloy": 1
+   },
+   "out": {
+    "antimatter-fuel-rod": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-strange-annihilation-fuel-rod",
+   "name": "Strange Annihilation Fuel Rod",
+   "nameZh": "",
+   "time": 32,
+   "in": {
+    "antimatter-fuel-rod": 8,
+    "df-core-element": 1,
+    "frame-material": 1,
+    "strange-matter": 2
+   },
+   "out": {
+    "df-strange-annihilation-fuel-rod": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-jamming-capsule",
+   "name": "Jamming Capsule",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "electromagnetic-turbine": 1,
+    "hydrogen": 3,
+    "plasma-exciter": 1
+   },
+   "out": {
+    "df-jamming-capsule": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-crystal-shell-set",
+   "name": "Crystal Shell Set",
+   "nameZh": "",
+   "time": 6,
+   "in": {
+    "df-crystal-explosive-unit": 2,
+    "df-high-explosive-shell-set": 1,
+    "titanium-alloy": 3
+   },
+   "out": {
+    "df-crystal-shell-set": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-prototype",
+   "name": "Prototype",
+   "nameZh": "",
+   "time": 2,
+   "in": {
+    "circuit-board": 2,
+    "df-engine": 1,
+    "iron-ingot": 3,
+    "plasma-exciter": 1
+   },
+   "out": {
+    "df-prototype": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-precision-drone",
+   "name": "Precision Drone",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "circuit-board": 2,
+    "df-prototype": 1,
+    "electromagnetic-turbine": 1,
+    "photon-combiner": 2
+   },
+   "out": {
+    "df-precision-drone": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-attack-drone",
+   "name": "Attack Drone",
+   "nameZh": "",
+   "time": 4,
+   "in": {
+    "df-prototype": 1,
+    "electromagnetic-turbine": 1,
+    "particle-container": 1,
+    "processor": 1
+   },
+   "out": {
+    "df-attack-drone": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-corvette",
+   "name": "Corvette",
+   "nameZh": "",
+   "time": 5,
+   "in": {
+    "particle-container": 3,
+    "processor": 2,
+    "reinforced-thruster": 1,
+    "titanium-alloy": 5
+   },
+   "out": {
+    "df-corvette": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-destroyer",
+   "name": "Destroyer",
+   "nameZh": "",
+   "time": 8,
+   "in": {
+    "frame-material": 20,
+    "processor": 4,
+    "reinforced-thruster": 4,
+    "strange-matter": 1
+   },
+   "out": {
+    "df-destroyer": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "space-warper",
+   "name": "Space Warper",
+   "nameZh": "空间翘曲器",
+   "time": 10,
+   "in": {
+    "graviton-lens": 1
+   },
+   "out": {
+    "space-warper": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "space-warper-advanced",
+   "name": "Space Warper (advanced)",
+   "nameZh": "空间翘曲器 (高级)",
+   "time": 10,
+   "in": {
+    "gravity-matrix": 1
+   },
+   "out": {
+    "space-warper": 8
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "mass-energy-storage",
+   "name": "Mass-energy Storage",
+   "nameZh": "质能储存",
+   "time": 2,
+   "in": {
+    "critical-photon": 2
+   },
+   "out": {
+    "antimatter": 2,
+    "hydrogen": 2
+   },
+   "producers": [
+    "miniature-particle-collider"
+   ],
+   "mining": false,
+   "allowProductivity": false,
+   "excludedByDefault": false
+  },
+  {
+   "id": "df-suppressing-capsule",
+   "name": "Suppressing Capsule",
+   "nameZh": "",
+   "time": 8,
+   "in": {
+    "df-jamming-capsule": 2,
+    "super-magnetic-ring": 1,
+    "titanium-glass": 2
+   },
+   "out": {
+    "df-suppressing-capsule": 2
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "foundation",
+   "name": "Foundation",
+   "nameZh": "地基",
+   "time": 1,
+   "in": {
+    "steel": 1,
+    "stone-brick": 3
+   },
+   "out": {
+    "foundation": 1
+   },
+   "producers": [
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "df-recomposing-assembler"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "electromagnetic-matrix",
+   "name": "Electromagnetic Matrix",
+   "nameZh": "电磁矩阵",
+   "time": 3,
+   "in": {
+    "circuit-board": 1,
+    "magnetic-coil": 1
+   },
+   "out": {
+    "electromagnetic-matrix": 1
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "energy-matrix",
+   "name": "Energy Matrix",
+   "nameZh": "能量矩阵",
+   "time": 6,
+   "in": {
+    "energetic-graphite": 2,
+    "hydrogen": 2
+   },
+   "out": {
+    "energy-matrix": 1
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "structure-matrix",
+   "name": "Structure Matrix",
+   "nameZh": "结构矩阵",
+   "time": 8,
+   "in": {
+    "diamond": 1,
+    "titanium-crystal": 1
+   },
+   "out": {
+    "structure-matrix": 1
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "information-matrix",
+   "name": "Information Matrix",
+   "nameZh": "信息矩阵",
+   "time": 10,
+   "in": {
+    "particle-broadband": 1,
+    "processor": 2
+   },
+   "out": {
+    "information-matrix": 1
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "gravity-matrix",
+   "name": "Gravity Matrix",
+   "nameZh": "引力矩阵",
+   "time": 24,
+   "in": {
+    "graviton-lens": 1,
+    "quantum-chip": 1
+   },
+   "out": {
+    "gravity-matrix": 2
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "universe-matrix",
+   "name": "Universe Matrix",
+   "nameZh": "宇宙矩阵",
+   "time": 15,
+   "in": {
+    "antimatter": 1,
+    "electromagnetic-matrix": 1,
+    "energy-matrix": 1,
+    "gravity-matrix": 1,
+    "information-matrix": 1,
+    "structure-matrix": 1
+   },
+   "out": {
+    "universe-matrix": 1
+   },
+   "producers": [
+    "matrix-lab",
+    "df-self-evolution-lab"
+   ],
+   "mining": false,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "gas-giant",
+   "name": "Gas Giant",
+   "nameZh": "气态巨星",
+   "time": 1,
+   "in": {},
+   "out": {
+    "deuterium": 0.32,
+    "hydrogen": 7.68
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "gas-giant-deuterium",
+   "name": "Gas Giant (Deuterium)",
+   "nameZh": "气态巨星 (重氢)",
+   "time": 1,
+   "in": {},
+   "out": {
+    "deuterium": 0.32
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "gas-giant-hydrogen",
+   "name": "Gas Giant (Hydrogen)",
+   "nameZh": "气态巨星 (氢)",
+   "time": 1,
+   "in": {},
+   "out": {
+    "hydrogen": 7.68
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "ice-giant",
+   "name": "Ice Giant",
+   "nameZh": "冰巨星",
+   "time": 1,
+   "in": {},
+   "out": {
+    "fire-ice": 5.6,
+    "hydrogen": 2.4
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": true
+  },
+  {
+   "id": "ice-giant-gas-hydrate",
+   "name": "Ice Giant (Fire Ice)",
+   "nameZh": "冰巨星 (可燃冰)",
+   "time": 1,
+   "in": {},
+   "out": {
+    "fire-ice": 5.6
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  },
+  {
+   "id": "ice-giant-hydrogen",
+   "name": "Ice Giant (Hydrogen)",
+   "nameZh": "冰巨星 (氢)",
+   "time": 1,
+   "in": {},
+   "out": {
+    "hydrogen": 2.4
+   },
+   "producers": [
+    "orbital-collector"
+   ],
+   "mining": true,
+   "allowProductivity": true,
+   "excludedByDefault": false
+  }
+ ],
+ "machines": {
+  "wireless-power-tower": {
+   "id": "wireless-power-tower",
+   "name": "Wireless Power Tower",
+   "speed": 1,
+   "usage": 4800,
+   "drain": 90,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "satellite-substation": {
+   "id": "satellite-substation",
+   "name": "Satellite Substation",
+   "speed": 1,
+   "usage": 0,
+   "drain": 720,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "wind-turbine": {
+   "id": "wind-turbine",
+   "name": "Wind Turbine",
+   "speed": 1,
+   "usage": -300,
+   "drain": 0,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "thermal-power-plant": {
+   "id": "thermal-power-plant",
+   "name": "Thermal Power Plant",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "solar-panel": {
+   "id": "solar-panel",
+   "name": "Solar Panel",
+   "speed": 1,
+   "usage": -360,
+   "drain": 0,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "geothermal-power-station": {
+   "id": "geothermal-power-station",
+   "name": "Geothermal Power Station",
+   "speed": 1,
+   "usage": -4800,
+   "drain": 0,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "mini-fusion-power-plant": {
+   "id": "mini-fusion-power-plant",
+   "name": "Mini Fusion Power Plant",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "energy-exchanger": {
+   "id": "energy-exchanger",
+   "name": "Energy Exchanger",
+   "speed": 1,
+   "usage": 54000,
+   "drain": 0,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "ray-receiver": {
+   "id": "ray-receiver",
+   "name": "Ray Receiver",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "artificial-star": {
+   "id": "artificial-star",
+   "name": "Artificial Star",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "automatic-piler": {
+   "id": "automatic-piler",
+   "name": "Automatic Piler",
+   "speed": 1,
+   "usage": 144,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "traffic-monitor": {
+   "id": "traffic-monitor",
+   "name": "Traffic Monitor",
+   "speed": 1,
+   "usage": 36,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "spray-coater": {
+   "id": "spray-coater",
+   "name": "Spray Coater",
+   "speed": 1,
+   "usage": 90,
+   "drain": 4.5,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "logistics-distributor": {
+   "id": "logistics-distributor",
+   "name": "Logistics Distributor",
+   "speed": 1,
+   "usage": 9000,
+   "drain": 18,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "planetary-logistics-station": {
+   "id": "planetary-logistics-station",
+   "name": "Planetary Logistics Station",
+   "speed": 1,
+   "usage": 60000,
+   "drain": 60,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "interstellar-logistics-station": {
+   "id": "interstellar-logistics-station",
+   "name": "Interstellar Logistics Station",
+   "speed": 1,
+   "usage": 300000,
+   "drain": 60,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "orbital-collector": {
+   "id": "orbital-collector",
+   "name": "Orbital Collector",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "sorter-1": {
+   "id": "sorter-1",
+   "name": "Sorter MK.I",
+   "speed": 1,
+   "usage": 18,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "sorter-2": {
+   "id": "sorter-2",
+   "name": "Sorter MK.II",
+   "speed": 1,
+   "usage": 36,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "sorter-3": {
+   "id": "sorter-3",
+   "name": "Sorter MK.III",
+   "speed": 1,
+   "usage": 72,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "sorter-4": {
+   "id": "sorter-4",
+   "name": "Pile Sorter",
+   "speed": 1,
+   "usage": 144,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "mining-machine": {
+   "id": "mining-machine",
+   "name": "Mining Machine",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "advanced-mining-machine": {
+   "id": "advanced-mining-machine",
+   "name": "Advanced Mining Machine",
+   "speed": 2,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": false
+  },
+  "water-pump": {
+   "id": "water-pump",
+   "name": "Water Pump",
+   "speed": 1,
+   "usage": 300,
+   "drain": 12,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "oil-extractor": {
+   "id": "oil-extractor",
+   "name": "Oil Extractor",
+   "speed": 1,
+   "usage": 840,
+   "drain": 24,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "oil-refinery": {
+   "id": "oil-refinery",
+   "name": "Oil Refinery",
+   "speed": 1,
+   "usage": 960,
+   "drain": 24,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "fractionator": {
+   "id": "fractionator",
+   "name": "Fractionator",
+   "speed": 1,
+   "usage": 720,
+   "drain": 18,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "chemical-plant": {
+   "id": "chemical-plant",
+   "name": "Chemical Plant",
+   "speed": 1,
+   "usage": 720,
+   "drain": 24,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "quantum-chemical-plant": {
+   "id": "quantum-chemical-plant",
+   "name": "Quantum Chemical Plant",
+   "speed": 2,
+   "usage": 2160,
+   "drain": 36,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "miniature-particle-collider": {
+   "id": "miniature-particle-collider",
+   "name": "Miniature Particle Collider",
+   "speed": 1,
+   "usage": 12000,
+   "drain": 120,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "arc-smelter": {
+   "id": "arc-smelter",
+   "name": "Arc Smelter",
+   "speed": 1,
+   "usage": 360,
+   "drain": 12,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "plane-smelter": {
+   "id": "plane-smelter",
+   "name": "Plane Smelter",
+   "speed": 2,
+   "usage": 1440,
+   "drain": 48,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "df-negentropy-smelter": {
+   "id": "df-negentropy-smelter",
+   "name": "Negentropy Smelter",
+   "speed": 3,
+   "usage": 2880,
+   "drain": 96,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "assembling-machine-1": {
+   "id": "assembling-machine-1",
+   "name": "Assembling Machine Mk.I",
+   "speed": 0.75,
+   "usage": 270,
+   "drain": 12,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "assembling-machine-2": {
+   "id": "assembling-machine-2",
+   "name": "Assembling Machine Mk.II",
+   "speed": 1,
+   "usage": 540,
+   "drain": 18,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "assembling-machine-3": {
+   "id": "assembling-machine-3",
+   "name": "Assembling Machine Mk.III",
+   "speed": 1.5,
+   "usage": 1080,
+   "drain": 24,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "df-recomposing-assembler": {
+   "id": "df-recomposing-assembler",
+   "name": "Re-composing Assembler",
+   "speed": 3,
+   "usage": 2700,
+   "drain": 54,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "matrix-lab": {
+   "id": "matrix-lab",
+   "name": "Matrix Lab",
+   "speed": 1,
+   "usage": 480,
+   "drain": 12,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "df-self-evolution-lab": {
+   "id": "df-self-evolution-lab",
+   "name": "Self-evolution Lab",
+   "speed": 3,
+   "usage": 1920,
+   "drain": 48,
+   "electric": true,
+   "acceptsProliferator": true
+  },
+  "em-rail-ejector": {
+   "id": "em-rail-ejector",
+   "name": "EM-Rail Ejector",
+   "speed": 1,
+   "usage": 1800,
+   "drain": 60,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "vertical-launching-silo": {
+   "id": "vertical-launching-silo",
+   "name": "Vertical Launching Silo",
+   "speed": 1,
+   "usage": 18000,
+   "drain": 60,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-gauss-turret": {
+   "id": "df-gauss-turret",
+   "name": "Gauss Turret",
+   "speed": 1,
+   "usage": 210,
+   "drain": 9,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-missile-turret": {
+   "id": "df-missile-turret",
+   "name": "Missile Turret",
+   "speed": 1,
+   "usage": 600,
+   "drain": 18,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-implosion-cannon": {
+   "id": "df-implosion-cannon",
+   "name": "Implosion Cannon",
+   "speed": 1,
+   "usage": 750,
+   "drain": 30,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-laser-turret": {
+   "id": "df-laser-turret",
+   "name": "Laser Turret",
+   "speed": 1,
+   "usage": 3000,
+   "drain": 120,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-plasma-turret": {
+   "id": "df-plasma-turret",
+   "name": "Plasma Turret",
+   "speed": 1,
+   "usage": 1680,
+   "drain": 84,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-plasma-turret-sr": {
+   "id": "df-plasma-turret-sr",
+   "name": "SR Plasma Turret",
+   "speed": 1,
+   "usage": 4200,
+   "drain": 2100,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-battlefield-analysis-base": {
+   "id": "df-battlefield-analysis-base",
+   "name": "Battlefield Analysis Base",
+   "speed": 1,
+   "usage": 2400,
+   "drain": 60,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-jammer-tower": {
+   "id": "df-jammer-tower",
+   "name": "Jammer Tower",
+   "speed": 1,
+   "usage": 1200,
+   "drain": 90,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-signal-tower": {
+   "id": "df-signal-tower",
+   "name": "Signal Tower",
+   "speed": 1,
+   "usage": 9600,
+   "drain": 1350,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "df-planetary-shield-generator": {
+   "id": "df-planetary-shield-generator",
+   "name": "Planetary Shield Generator",
+   "speed": 1,
+   "usage": 24000,
+   "drain": 12000,
+   "electric": true,
+   "acceptsProliferator": false
+  },
+  "ray-receiver-pro": {
+   "id": "ray-receiver-pro",
+   "name": "Ray Receiver (Graviton lens)",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": true
+  },
+  "ray-receiver-dark-fog": {
+   "id": "ray-receiver-dark-fog",
+   "name": "Ray Receiver (Dark Fog Lens)",
+   "speed": 1,
+   "usage": 0,
+   "drain": 0,
+   "electric": false,
+   "acceptsProliferator": true
+  }
+ },
+ "proliferators": [
+  {
+   "level": 1,
+   "itemId": "proliferator-1",
+   "sprays": 12,
+   "speedBonus": 0.25,
+   "productivityBonus": 0.125,
+   "powerBonus": 0.3
+  },
+  {
+   "level": 2,
+   "itemId": "proliferator-2",
+   "sprays": 24,
+   "speedBonus": 0.5,
+   "productivityBonus": 0.2,
+   "powerBonus": 0.7
+  },
+  {
+   "level": 3,
+   "itemId": "proliferator-3",
+   "sprays": 60,
+   "speedBonus": 1,
+   "productivityBonus": 0.25,
+   "powerBonus": 1.5
+  }
+ ],
+ "defaultRecipe": {
+  "tesla-tower": "tesla-tower",
+  "wireless-power-tower": "wireless-power-tower",
+  "satellite-substation": "satellite-substation",
+  "wind-turbine": "wind-turbine",
+  "thermal-power-plant": "thermal-power-plant",
+  "solar-panel": "solar-panel",
+  "geothermal-power-station": "geothermal-power-station",
+  "mini-fusion-power-plant": "mini-fusion-power-plant",
+  "energy-exchanger": "energy-exchanger",
+  "accumulator": "accumulator",
+  "accumulator-full": "accumulator-full",
+  "ray-receiver": "ray-receiver",
+  "artificial-star": "artificial-star",
+  "conveyor-belt-1": "conveyor-belt-1",
+  "conveyor-belt-2": "conveyor-belt-2",
+  "conveyor-belt-3": "conveyor-belt-3",
+  "splitter": "splitter",
+  "automatic-piler": "automatic-piler",
+  "traffic-monitor": "traffic-monitor",
+  "spray-coater": "spray-coater",
+  "storage-1": "storage-1",
+  "storage-2": "storage-2",
+  "storage-tank": "storage-tank",
+  "logistics-distributor": "logistics-distributor",
+  "planetary-logistics-station": "planetary-logistics-station",
+  "interstellar-logistics-station": "interstellar-logistics-station",
+  "orbital-collector": "orbital-collector",
+  "sorter-1": "sorter-1",
+  "sorter-2": "sorter-2",
+  "sorter-3": "sorter-3",
+  "sorter-4": "sorter-4",
+  "mining-machine": "mining-machine",
+  "advanced-mining-machine": "advanced-mining-machine",
+  "water-pump": "water-pump",
+  "oil-extractor": "oil-extractor",
+  "oil-refinery": "oil-refinery",
+  "fractionator": "fractionator",
+  "chemical-plant": "chemical-plant",
+  "quantum-chemical-plant": "quantum-chemical-plant",
+  "miniature-particle-collider": "miniature-particle-collider",
+  "arc-smelter": "arc-smelter",
+  "plane-smelter": "plane-smelter",
+  "df-negentropy-smelter": "df-negentropy-smelter",
+  "assembling-machine-1": "assembling-machine-1",
+  "assembling-machine-2": "assembling-machine-2",
+  "assembling-machine-3": "assembling-machine-3",
+  "df-recomposing-assembler": "df-recomposing-assembler",
+  "matrix-lab": "matrix-lab",
+  "df-self-evolution-lab": "df-self-evolution-lab",
+  "holo-beacon": "holo-beacon",
+  "em-rail-ejector": "em-rail-ejector",
+  "vertical-launching-silo": "vertical-launching-silo",
+  "df-gauss-turret": "df-gauss-turret",
+  "df-missile-turret": "df-missile-turret",
+  "df-implosion-cannon": "df-implosion-cannon",
+  "df-laser-turret": "df-laser-turret",
+  "df-plasma-turret": "df-plasma-turret",
+  "df-plasma-turret-sr": "df-plasma-turret-sr",
+  "df-battlefield-analysis-base": "df-battlefield-analysis-base",
+  "df-jammer-tower": "df-jammer-tower",
+  "df-signal-tower": "df-signal-tower",
+  "df-planetary-shield-generator": "df-planetary-shield-generator",
+  "iron-ore": "iron-vein",
+  "copper-ore": "copper-vein",
+  "stone": "stone-vein",
+  "coal": "coal-vein",
+  "silicon-ore": "silicium-vein",
+  "titanium-ore": "titanium-vein",
+  "water": "ocean",
+  "crude-oil": "crude-oil-seep",
+  "hydrogen": "plasma-refining",
+  "deuterium": "deuterium",
+  "antimatter": "mass-energy-storage",
+  "critical-photon": "critical-photon",
+  "kimberlite-ore": "kimberlite-vein",
+  "iron-ingot": "iron-ingot",
+  "copper-ingot": "copper-ingot",
+  "stone-brick": "stone-brick",
+  "energetic-graphite": "energetic-graphite",
+  "high-purity-silicon": "high-purity-silicon",
+  "titanium-ingot": "titanium-ingot",
+  "sulfuric-acid": "sulfuric-acid",
+  "refined-oil": "plasma-refining",
+  "hydrogen-fuel-rod": "hydrogen-fuel-rod",
+  "deuteron-fuel-rod": "deuteron-fuel-rod",
+  "antimatter-fuel-rod": "antimatter-fuel-rod",
+  "df-strange-annihilation-fuel-rod": "df-strange-annihilation-fuel-rod",
+  "df-missile-set": "df-missile-set",
+  "fractal-silicon": "fractal-silicon-vein",
+  "magnet": "magnet",
+  "magnetic-coil": "magnetic-coil",
+  "glass": "glass",
+  "diamond": "diamond",
+  "crystal-silicon": "crystal-silicon",
+  "titanium-alloy": "titanium-alloy",
+  "df-combustible-unit": "df-combustible-unit",
+  "plastic": "plastic",
+  "organic-crystal": "organic-crystal",
+  "graphene": "graphene",
+  "annihilation-constraint-sphere": "annihilation-constraint-sphere",
+  "df-magnum-ammo-box": "df-magnum-ammo-box",
+  "df-supersonic-missile-set": "df-supersonic-missile-set",
+  "optical-grating-crystal": "optical-grating-crystal-vein",
+  "steel": "steel",
+  "circuit-board": "circuit-board",
+  "prism": "prism",
+  "electric-motor": "electric-motor",
+  "microcrystalline-component": "microcrystalline-component",
+  "proliferator-1": "proliferator-1",
+  "df-explosive-unit": "df-explosive-unit",
+  "strange-matter": "strange-matter",
+  "titanium-crystal": "titanium-crystal",
+  "carbon-nanotube": "carbon-nanotube",
+  "particle-broadband": "particle-broadband",
+  "df-titanium-ammo-box": "df-titanium-ammo-box",
+  "df-gravity-missile-set": "df-gravity-missile-set",
+  "spiniform-stalagmite-crystal": "spiniform-stalagmite-crystal-vein",
+  "gear": "gear",
+  "plasma-exciter": "plasma-exciter",
+  "photon-combiner": "photon-combiner",
+  "electromagnetic-turbine": "electromagnetic-turbine",
+  "processor": "processor",
+  "proliferator-2": "proliferator-2",
+  "df-crystal-explosive-unit": "df-crystal-explosive-unit",
+  "casimir-crystal": "casimir-crystal",
+  "titanium-glass": "titanium-glass",
+  "plane-filter": "plane-filter",
+  "quantum-chip": "quantum-chip",
+  "df-superalloy-ammo-box": "df-superalloy-ammo-box",
+  "df-shell-set": "df-shell-set",
+  "unipolar-magnet": "unipolar-magnet-vein",
+  "df-engine": "df-engine",
+  "thruster": "thruster",
+  "reinforced-thruster": "reinforced-thruster",
+  "super-magnetic-ring": "super-magnetic-ring",
+  "particle-container": "particle-container",
+  "proliferator-3": "proliferator-3",
+  "df-prototype": "df-prototype",
+  "df-precision-drone": "df-precision-drone",
+  "df-attack-drone": "df-attack-drone",
+  "df-corvette": "df-corvette",
+  "df-destroyer": "df-destroyer",
+  "df-plasma-capsule": "df-plasma-capsule",
+  "df-high-explosive-shell-set": "df-high-explosive-shell-set",
+  "fire-ice": "ice-giant-gas-hydrate",
+  "logistics-bot": "logistics-bot",
+  "logistics-drone": "logistics-drone",
+  "logistics-vessel": "logistics-vessel",
+  "space-warper": "space-warper",
+  "graviton-lens": "graviton-lens",
+  "df-dark-fog-lens": "df-dark-fog-lens",
+  "foundation": "foundation",
+  "solar-sail": "solar-sail",
+  "frame-material": "frame-material",
+  "dyson-sphere-component": "dyson-sphere-component",
+  "small-carrier-rocket": "small-carrier-rocket",
+  "df-antimatter-capsule": "df-antimatter-capsule",
+  "df-crystal-shell-set": "df-crystal-shell-set",
+  "electromagnetic-matrix": "electromagnetic-matrix",
+  "energy-matrix": "energy-matrix",
+  "structure-matrix": "structure-matrix",
+  "information-matrix": "information-matrix",
+  "gravity-matrix": "gravity-matrix",
+  "universe-matrix": "universe-matrix",
+  "df-jamming-capsule": "df-jamming-capsule",
+  "df-suppressing-capsule": "df-suppressing-capsule"
+ }
+}
