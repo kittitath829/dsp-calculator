@@ -5976,6 +5976,170 @@
    "powerBonus": 1.5
   }
  ],
+ "fuels": {
+  "accumulator-full": {
+   "value": 540,
+   "types": [
+    "accumulator"
+   ]
+  },
+  "coal": {
+   "value": 2.7,
+   "types": [
+    "chemical"
+   ]
+  },
+  "crude-oil": {
+   "value": 4.05,
+   "types": [
+    "chemical"
+   ]
+  },
+  "hydrogen": {
+   "value": 9,
+   "types": [
+    "chemical"
+   ]
+  },
+  "deuterium": {
+   "value": 9,
+   "types": [
+    "chemical"
+   ]
+  },
+  "energetic-graphite": {
+   "value": 6.75,
+   "types": [
+    "chemical"
+   ]
+  },
+  "refined-oil": {
+   "value": 4.5,
+   "types": [
+    "chemical"
+   ]
+  },
+  "hydrogen-fuel-rod": {
+   "value": 54,
+   "types": [
+    "chemical"
+   ]
+  },
+  "deuteron-fuel-rod": {
+   "value": 600,
+   "types": [
+    "nuclear"
+   ]
+  },
+  "antimatter-fuel-rod": {
+   "value": 7200,
+   "types": [
+    "antimatter"
+   ]
+  },
+  "df-strange-annihilation-fuel-rod": {
+   "value": 72000,
+   "types": [
+    "antimatter"
+   ]
+  },
+  "diamond": {
+   "value": 0.9,
+   "types": [
+    "chemical"
+   ]
+  },
+  "df-combustible-unit": {
+   "value": 9.72,
+   "types": [
+    "chemical"
+   ]
+  },
+  "organic-crystal": {
+   "value": 1.8,
+   "types": [
+    "chemical"
+   ]
+  },
+  "graphene": {
+   "value": 0.096,
+   "types": [
+    "chemical"
+   ]
+  },
+  "proliferator-1": {
+   "value": 3.24,
+   "types": [
+    "chemical"
+   ]
+  },
+  "df-explosive-unit": {
+   "value": 21.6,
+   "types": [
+    "chemical"
+   ]
+  },
+  "carbon-nanotube": {
+   "value": 0.084,
+   "types": [
+    "chemical"
+   ]
+  },
+  "proliferator-2": {
+   "value": 8.856,
+   "types": [
+    "chemical"
+   ]
+  },
+  "df-crystal-explosive-unit": {
+   "value": 54,
+   "types": [
+    "chemical"
+   ]
+  },
+  "proliferator-3": {
+   "value": 21.255,
+   "types": [
+    "chemical"
+   ]
+  },
+  "fire-ice": {
+   "value": 4.8,
+   "types": [
+    "chemical"
+   ]
+  },
+  "graviton-lens": {
+   "value": 1,
+   "types": [
+    "lens"
+   ]
+  },
+  "df-dark-fog-lens": {
+   "value": 1,
+   "types": [
+    "lens"
+   ]
+  },
+  "log": {
+   "value": 1.5,
+   "types": [
+    "chemical"
+   ]
+  },
+  "df-energy-shard": {
+   "value": 3.6,
+   "types": [
+    "chemical"
+   ]
+  },
+  "plant-fuel": {
+   "value": 0.5,
+   "types": [
+    "chemical"
+   ]
+  }
+ },
  "defaultRecipe": {
   "tesla-tower": "tesla-tower",
   "wireless-power-tower": "wireless-power-tower",

@@ -94,6 +94,13 @@ const proliferators = [1, 2, 3].map((level) => {
   };
 });
 
+// ---- fuels ----
+// ค่าพลังงานของเชื้อเพลิง (MJ ต่อชิ้น) และชนิด (chemical / nuclear / antimatter) ใช้คำนวณเครื่องปั่นไฟ
+const fuels = {};
+for (const i of raw.items) {
+  if (i.fuel && itemIds.has(i.id)) fuels[i.id] = { value: i.fuel.value, types: i.fuel.types ?? [] };
+}
+
 // ---- default recipe per item ----
 // ลำดับความสำคัญ: สูตรที่ id ตรงกับไอเทม > สูตรผลิตปกติ > สูตรขุด (mining)
 const defaultRecipe = {};
@@ -113,6 +120,7 @@ const out = {
   recipes,
   machines,
   proliferators,
+  fuels,
   defaultRecipe,
 };
 

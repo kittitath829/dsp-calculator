@@ -59,5 +59,12 @@ export interface GameData {
   recipes: Recipe[];
   machines: Record<MachineId, Machine>;
   proliferators: Proliferator[];
+  /** เชื้อเพลิง: พลังงานต่อชิ้น (MJ) และชนิดที่เครื่องปั่นไฟรับได้ */
+  fuels: Record<ItemId, Fuel>;
   defaultRecipe: Record<ItemId, RecipeId>;
+}
+
+export interface Fuel {
+  value: number;
+  types: string[];
 }

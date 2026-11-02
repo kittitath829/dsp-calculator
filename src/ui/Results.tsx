@@ -3,6 +3,7 @@ import { calculator, itemName, machineName } from '../core/gameData';
 import type { ItemId } from '../data/types';
 import { useEffect, useState } from 'react';
 import { FlowGraph } from './FlowGraph';
+import { PowerPlan } from './PowerPlan';
 import { Icon } from './Icon';
 import { fmt, fmtPower, toUnit, unitLabel, type RateUnit } from './format';
 
@@ -249,6 +250,7 @@ export function Results(props: Props) {
             )}
           </div>
         )}
+        <PowerPlan powerKW={result.totalPowerKW} unit={unit} />
       </section>
 
       {!result.converged && (
