@@ -26,8 +26,10 @@ export interface RecipeSetting {
 
 export interface Target {
   itemId: ItemId;
-  /** ชิ้นต่อนาที */
+  /** ชิ้นต่อนาที (ใช้เมื่อไม่ได้กำหนด machines) */
   perMinute: number;
+  /** กำหนดเป็นจำนวนเครื่องผลิตที่ทำงานต่อเนื่องแทนอัตรา — อัตราคำนวณจากความเร็วเครื่อง */
+  machines?: number;
 }
 
 export interface CalcSettings {
@@ -163,10 +165,27 @@ export class Calculator {
     };
   }
 
+  /** ผลผลิตของไอเทมนี้ต่อ 1 เครื่องที่ทำงานเต็มเวลา (ชิ้น/วินาที) หรือ undefined ถ้าเป็นวัตถุดิบดิบ */
+  ratePerMachine(itemId: ItemId, s: CalcSettings): number | undefined {
+    const recipe = this.chosenRecipe(itemId, s);
+    if (!recipe) return undefined;
+    const machineId = this.machineFor(recipe, s);
+    const fx = this.effects(recipe, machineId, s);
+    const speed = (this.data.machines[machineId]?.speed ?? 1) * fx.speedMult;
+    return (recipe.out[itemId] * fx.outMult * speed) / recipe.time;
+  }
+
+  /** อัตราเป้าหมาย (ชิ้น/วินาที) — แปลงจากจำนวนเครื่องถ้ากำหนดไว้ */
+  targetRate(t: Target, s: CalcSettings): number {
+    if (t.machines !== undefined) return t.machines * (this.ratePerMachine(t.itemId, s) ?? 0);
+    return t.perMinute / 60;
+  }
+
   calculate(s: CalcSettings): CalcResult {
     const targets: Record<ItemId, number> = {};
     for (const t of s.targets) {
-      if (t.perMinute > 0) targets[t.itemId] = (targets[t.itemId] ?? 0) + t.perMinute / 60;
+      const r = this.targetRate(t, s);
+      if (r > 0) targets[t.itemId] = (targets[t.itemId] ?? 0) + r;
     }
 
     // --- เตรียมสูตรที่เกี่ยวข้องทั้งหมด (BFS จากเป้าหมาย) ---

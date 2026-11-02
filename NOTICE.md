@@ -1,6 +1,8 @@
 # Third-party notices
 
-src/data/dsp-data.json is derived from FactorioLab (https://github.com/factoriolab/factoriolab), licensed under the MIT License:
+src/data/icons.webp (item/building icons) is taken from FactorioLab's DSP data set; the icon artwork itself belongs to Youthcat Studio / Gamera Games (Dyson Sphere Program) and is used here for a non-commercial fan tool.
+
+src/data/dsp-data.json and src/data/icons.json are derived from FactorioLab (https://github.com/factoriolab/factoriolab), licensed under the MIT License:
 
 ```
 # The MIT License

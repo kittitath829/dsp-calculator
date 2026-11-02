@@ -1,6 +1,9 @@
 import type { CalcResult, CalcSettings, ProliferatorSetting, RecipeResult } from '../core/calculator';
 import { calculator, itemName, machineName } from '../core/gameData';
 import type { ItemId } from '../data/types';
+import { useEffect, useState } from 'react';
+import { FlowGraph } from './FlowGraph';
+import { Icon } from './Icon';
 import { fmt, fmtPower, toUnit, unitLabel, type RateUnit } from './format';
 
 interface Props {
@@ -11,6 +14,16 @@ interface Props {
 }
 
 const RAW_VALUE = '__raw__';
+
+type View = 'table' | 'graph';
+const VIEW_KEY = 'dsp-calculator:view';
+function loadView(): View {
+  try {
+    return localStorage.getItem(VIEW_KEY) === 'graph' ? 'graph' : 'table';
+  } catch {
+    return 'table';
+  }
+}
 
 /** เปลี่ยนสูตรของไอเทม หรือ "ถือเป็นวัตถุดิบ" */
 function setItemRecipe(s: CalcSettings, itemId: ItemId, value: string): CalcSettings {
@@ -65,13 +78,16 @@ function Row({ r, result, settings, onChange, unit }: Props & { r: RecipeResult 
           {Object.entries(r.outputs)
             .sort(([a], [b]) => Number(owned.includes(b)) - Number(owned.includes(a)))
             .map(([i, n]) => (
-            <div key={i} className={owned.includes(i) ? 'out main' : 'out by'}>
-              <strong>{itemName(i)}</strong>
-              <span className="num">
-                {fmt(toUnit(n, unit))}
-                {unitLabel(unit)}
-              </span>
-              {!owned.includes(i) && <em>ผลพลอยได้</em>}
+            <div key={i} className={owned.includes(i) ? 'out own' : 'out by'}>
+              <Icon id={i} px={owned.includes(i) ? 52 : 32} title={itemName(i)} />
+              <div className="out-text">
+                <span className="num rate">
+                  {fmt(toUnit(n, unit))}
+                  <small>{unitLabel(unit)}</small>
+                </span>
+                <span className="out-name">{itemName(i)}</span>
+                {!owned.includes(i) && <em>ผลพลอยได้</em>}
+              </div>
             </div>
           ))}
           {calculator.recipesFor(primary).length > 1 && (
@@ -79,22 +95,27 @@ function Row({ r, result, settings, onChange, unit }: Props & { r: RecipeResult 
           )}
         </div>
       </td>
-      <td>
-        {r.recipe.producers.length > 1 ? (
-          <select className="compact" value={r.machineId} aria-label="เครื่องจักร" onChange={(e) => setRs({ machine: e.target.value })}>
-            {r.recipe.producers.map((m) => (
-              <option key={m} value={m}>
-                {machineName(m)}
-              </option>
-            ))}
-          </select>
-        ) : (
-          machineName(r.machineId)
-        )}
-      </td>
-      <td className="num big">
-        {r.machinesCeil}
-        <small>{fmt(r.machines)}</small>
+      <td className="c-machine">
+        <div className="machine-cell">
+          <div className="machine-badge" title={`${machineName(r.machineId)} × ${fmt(r.machines)}`}>
+            <Icon id={r.machineId} px={52} />
+            <span className="count num">×{r.machinesCeil}</span>
+          </div>
+          <div className="machine-text">
+            {r.recipe.producers.length > 1 ? (
+              <select className="compact" value={r.machineId} aria-label="เครื่องจักร" onChange={(e) => setRs({ machine: e.target.value })}>
+                {r.recipe.producers.map((m) => (
+                  <option key={m} value={m}>
+                    {machineName(m)}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <span className="out-name">{machineName(r.machineId)}</span>
+            )}
+            <small className="muted">ใช้จริง {fmt(r.machines)} เครื่อง</small>
+          </div>
+        </div>
       </td>
       <td>
         {machine?.acceptsProliferator && Object.keys(r.recipe.in).length > 0 ? (
@@ -121,14 +142,14 @@ function Row({ r, result, settings, onChange, unit }: Props & { r: RecipeResult 
         {r.proliferatorFallback && <div className="note">สูตรนี้ใช้ได้แค่โหมดเร็วขึ้น</div>}
       </td>
       <td className="c-in">
-        {Object.entries(r.inputs).map(([i, n]) => (
-          <div key={i}>
-            {itemName(i)}{' '}
-            <span className="num">
-              {fmt(toUnit(n, unit))}
-            </span>
-          </div>
-        ))}
+        <div className="in-list">
+          {Object.entries(r.inputs).map(([i, n]) => (
+            <div key={i} className="in-tile" title={itemName(i)}>
+              <Icon id={i} px={36} />
+              <span className="num">{fmt(toUnit(n, unit))}</span>
+            </div>
+          ))}
+        </div>
       </td>
       <td className="num">{fmtPower(r.powerKW)}</td>
     </tr>
@@ -141,6 +162,14 @@ export function Results(props: Props) {
   const surplus = Object.entries(result.surplus);
   const prolif = Object.entries(result.proliferatorUsage).filter(([, n]) => n > 1e-9);
   const machines = Object.entries(result.machineTotals).sort((a, b) => b[1] - a[1]);
+  const [view, setView] = useState<View>(loadView);
+  useEffect(() => {
+    try {
+      localStorage.setItem(VIEW_KEY, view);
+    } catch {
+      /* storage ไม่พร้อมใช้ — ไม่เป็นไร */
+    }
+  }, [view]);
 
   return (
     <>
@@ -156,7 +185,10 @@ export function Results(props: Props) {
           <ul>
             {raw.map(([i, n]) => (
               <li key={i}>
-                <span>{itemName(i)}</span>
+                <span className="named">
+                  <Icon id={i} />
+                  {itemName(i)}
+                </span>
                 <span className="num">{fmt(toUnit(n, unit))}</span>
                 {calculator.recipesFor(i).some((r) => !r.mining) && (
                   <RecipeSelect itemId={i} settings={settings} onChange={onChange} />
@@ -171,7 +203,10 @@ export function Results(props: Props) {
           <ul>
             {machines.map(([m, n]) => (
               <li key={m}>
-                <span>{machineName(m)}</span>
+                <span className="named">
+                  <Icon id={m} />
+                  {machineName(m)}
+                </span>
                 <span className="num">{n}</span>
               </li>
             ))}
@@ -186,7 +221,10 @@ export function Results(props: Props) {
                 <ul>
                   {surplus.map(([i, n]) => (
                     <li key={i}>
-                      <span>{itemName(i)}</span>
+                      <span className="named">
+                  <Icon id={i} />
+                  {itemName(i)}
+                </span>
                       <span className="num">{fmt(toUnit(n, unit))}</span>
                     </li>
                   ))}
@@ -199,7 +237,10 @@ export function Results(props: Props) {
                 <ul>
                   {prolif.map(([i, n]) => (
                     <li key={i}>
-                      <span>{itemName(i)}</span>
+                      <span className="named">
+                  <Icon id={i} />
+                  {itemName(i)}
+                </span>
                       <span className="num">{fmt(toUnit(n, unit))}</span>
                     </li>
                   ))}
@@ -216,13 +257,23 @@ export function Results(props: Props) {
         </p>
       )}
 
+      <div className="seg view-toggle" role="group" aria-label="รูปแบบการแสดงผล">
+        {(['table', 'graph'] as const).map((v) => (
+          <button key={v} aria-pressed={view === v} onClick={() => setView(v)}>
+            {v === 'table' ? 'ตาราง' : 'กราฟ'}
+          </button>
+        ))}
+      </div>
+
+      {view === 'graph' ? (
+        <FlowGraph result={result} settings={settings} onChange={onChange} unit={unit} />
+      ) : (
       <div className="table-wrap">
         <table>
           <thead>
             <tr>
               <th>ผลผลิต</th>
-              <th>เครื่องจักร</th>
-              <th className="num">จำนวน</th>
+              <th>สร้างจากเครื่อง × จำนวน</th>
               <th>Proliferator</th>
               <th>วัตถุดิบเข้า {unitLabel(unit)}</th>
               <th className="num">ไฟฟ้า</th>
@@ -235,6 +286,7 @@ export function Results(props: Props) {
           </tbody>
         </table>
       </div>
+      )}
     </>
   );
 }

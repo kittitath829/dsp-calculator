@@ -7,8 +7,11 @@
  *   git clone --depth 1 --filter=blob:none --sparse https://github.com/factoriolab/factoriolab.git /tmp/fl
  *   (cd /tmp/fl && git sparse-checkout set public/data/dsp)
  *   node scripts/build-data.mjs /tmp/fl/public/data/dsp
+ *
+ * ได้ไฟล์ src/data/dsp-data.json, src/data/icons.json (ตำแหน่งไอคอนใน sprite)
+ * และ src/data/icons.webp (sprite sheet ไอคอน 64px)
  */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -117,6 +120,19 @@ const here = dirname(fileURLToPath(import.meta.url));
 const dest = join(here, '..', 'src', 'data', 'dsp-data.json');
 mkdirSync(dirname(dest), { recursive: true });
 writeFileSync(dest, JSON.stringify(out, null, 1));
+
+// ---- icons ----
+// เก็บเฉพาะไอคอนของไอเทม/เครื่องจักรที่ใช้ -> { id: [x, y] }
+const iconPos = new Map(raw.icons.map((i) => [i.id, [i.x, i.y]]));
+const icons = {};
+for (const i of raw.items) {
+  if (!itemIds.has(i.id) && !machines[i.id]) continue;
+  const pos = iconPos.get(i.icon ?? i.id);
+  if (pos) icons[i.id] = pos;
+}
+const sheetSize = Math.max(...raw.icons.flatMap((i) => [i.x, i.y])) + 64;
+writeFileSync(join(dirname(dest), 'icons.json'), JSON.stringify({ size: 64, sheetSize, icons }));
+copyFileSync(join(srcDir, 'icons.webp'), join(dirname(dest), 'icons.webp'));
 console.log(
   `wrote ${dest}: ${items.length} items, ${recipes.length} recipes, ${Object.keys(machines).length} machines (game ${out.gameVersion})`,
 );

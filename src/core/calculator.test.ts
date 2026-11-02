@@ -143,4 +143,22 @@ describe('Calculator', () => {
     expect(res.recipes.some((r) => r.recipe.id === 'proliferator-1')).toBe(true);
     expect(res.raw['coal']).toBeGreaterThan(0);
   });
+  it('เป้าหมายแบบจำนวนเครื่อง: Matrix Lab 5 เครื่องทำงานต่อเนื่อง = 100/นาที', () => {
+    const res = calc.calculate(settings({ targets: [{ itemId: 'electromagnetic-matrix', perMinute: 0, machines: 5 }] }));
+    expect(byId(res, 'electromagnetic-matrix').machines).toBeCloseTo(5);
+    expect(res.items['electromagnetic-matrix'].target * 60).toBeCloseTo(100);
+    expect(res.raw['iron-ore'] * 60).toBeCloseTo(200);
+  });
+
+  it('เป้าหมายแบบจำนวนเครื่องคิดตามเครื่องที่เลือก (Plane Smelter เร็ว 2 เท่า)', () => {
+    const s = settings({ targets: [{ itemId: 'iron-ingot', perMinute: 0, machines: 2 }] });
+    expect(calc.targetRate(s.targets[0], s) * 60).toBeCloseTo(120);
+    const fast = { ...s, preferredMachines: ['plane-smelter', 'assembling-machine-2', 'chemical-plant', 'matrix-lab'] };
+    expect(calc.targetRate(fast.targets[0], fast) * 60).toBeCloseTo(240);
+    expect(byId(calc.calculate(fast), 'iron-ingot').machines).toBeCloseTo(2);
+  });
+
+  it('วัตถุดิบดิบไม่มีเครื่องผลิต: ratePerMachine เป็น undefined', () => {
+    expect(calc.ratePerMachine('iron-ore', DEFAULT_SETTINGS)).toBeUndefined();
+  });
 });

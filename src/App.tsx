@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
-import { DEFAULT_SETTINGS, type CalcSettings } from './core/calculator';
-import { calculator, gameData, itemName } from './core/gameData';
+import { DEFAULT_SETTINGS, type CalcSettings, type Target } from './core/calculator';
+import { calculator, gameData, itemName, machineName } from './core/gameData';
+import { Icon } from './ui/Icon';
 import { ItemPicker } from './ui/ItemPicker';
 import { Results } from './ui/Results';
 import { SettingsPanel } from './ui/SettingsPanel';
-import type { RateUnit } from './ui/format';
+import { fmt, toUnit, unitLabel, type RateUnit } from './ui/format';
 
 const STORAGE_KEY = 'dsp-calculator:v1';
 
@@ -42,8 +43,23 @@ export default function App() {
   const result = useMemo(() => calculator.calculate(settings), [settings]);
   const factor = unit === 'min' ? 1 : 60;
 
-  const updateTarget = (idx: number, perMinute: number) =>
-    setSettings({ ...settings, targets: settings.targets.map((t, i) => (i === idx ? { ...t, perMinute } : t)) });
+  const updateTarget = (idx: number, patch: Partial<Target>) =>
+    setSettings({ ...settings, targets: settings.targets.map((t, i) => (i === idx ? { ...t, ...patch } : t)) });
+
+  /** สลับเป้าหมายระหว่าง "อัตรา" กับ "จำนวนเครื่อง" โดยคงกำลังผลิตใกล้เคียงเดิม */
+  const setTargetMode = (idx: number, byMachines: boolean) => {
+    const t = settings.targets[idx];
+    const perSec = calculator.targetRate(t, settings);
+    if (byMachines) {
+      const perMachine = calculator.ratePerMachine(t.itemId, settings) ?? 0;
+      updateTarget(idx, { machines: perMachine > 0 ? Math.max(1, Math.ceil(perSec / perMachine - 1e-9)) : 1 });
+    } else {
+      setSettings({
+        ...settings,
+        targets: settings.targets.map((x, i) => (i === idx ? { itemId: x.itemId, perMinute: perSec * 60 } : x)),
+      });
+    }
+  };
 
   return (
     <div className="app">
@@ -60,18 +76,57 @@ export default function App() {
           <ul className="targets">
             {settings.targets.map((t, idx) => (
               <li key={t.itemId}>
-                <span className="t-name">{itemName(t.itemId)}</span>
-                <label className="t-rate">
+                <span className="t-name named">
+                  <Icon id={t.itemId} px={44} title={itemName(t.itemId)} />
+                  <span className="t-text">
+                    {itemName(t.itemId)}
+                    {(() => {
+                      const r = result.recipes.find((x) => x.recipe.id === result.items[t.itemId]?.recipeId);
+                      return (
+                        r && (
+                          <small className="t-machine">
+                            <Icon id={r.machineId} px={20} />
+                            {machineName(r.machineId)} ×{r.machinesCeil}
+                          </small>
+                        )
+                      );
+                    })()}
+                  </span>
+                </span>
+                <div className="t-rate">
                   <input
                     type="number"
                     min={0}
                     step="any"
-                    value={+(t.perMinute / factor).toFixed(4)}
-                    aria-label={`อัตราของ ${itemName(t.itemId)}`}
-                    onChange={(e) => updateTarget(idx, Math.max(0, Number(e.target.value)) * factor)}
+                    value={t.machines !== undefined ? t.machines : +(t.perMinute / factor).toFixed(4)}
+                    aria-label={
+                      t.machines !== undefined
+                        ? `จำนวนเครื่องที่ผลิต ${itemName(t.itemId)}`
+                        : `อัตราของ ${itemName(t.itemId)}`
+                    }
+                    onChange={(e) => {
+                      const v = Math.max(0, Number(e.target.value));
+                      updateTarget(idx, t.machines !== undefined ? { machines: v } : { perMinute: v * factor });
+                    }}
                   />
-                  <span>{unit === 'min' ? '/นาที' : '/วิ'}</span>
-                </label>
+                  <select
+                    className="compact"
+                    value={t.machines !== undefined ? 'machines' : 'rate'}
+                    aria-label={`รูปแบบเป้าหมายของ ${itemName(t.itemId)}`}
+                    onChange={(e) => setTargetMode(idx, e.target.value === 'machines')}
+                  >
+                    <option value="rate">{unit === 'min' ? '/นาที' : '/วิ'}</option>
+                    {calculator.ratePerMachine(t.itemId, settings) !== undefined && (
+                      <option value="machines">เครื่อง</option>
+                    )}
+                  </select>
+                </div>
+                {t.machines !== undefined && (
+                  <small className="t-derived">
+                    ทำงานต่อเนื่อง ≈ {fmt(toUnit(calculator.targetRate(t, settings), unit))}
+                    {unitLabel(unit)}
+                  </small>
+                )}
                 <button
                   className="icon-btn"
                   aria-label={`ลบ ${itemName(t.itemId)}`}

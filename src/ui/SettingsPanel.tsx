@@ -1,5 +1,4 @@
 import type { CalcSettings, ProliferatorMode } from '../core/calculator';
-import { MACHINE_GROUPS, machineName } from '../core/gameData';
 import type { RateUnit } from './format';
 
 interface Props {
@@ -10,32 +9,11 @@ interface Props {
 }
 
 export function SettingsPanel({ settings, onChange, unit, onUnit }: Props) {
-  const setGroupMachine = (groupMachines: string[], picked: string) => {
-    const rest = settings.preferredMachines.filter((m) => !groupMachines.includes(m));
-    onChange({ ...settings, preferredMachines: [...rest, picked] });
-  };
-
   return (
     <section className="panel" aria-labelledby="settings-h">
       <h2 id="settings-h">ตั้งค่า</h2>
 
       <div className="field-grid">
-        {MACHINE_GROUPS.map((g) => (
-          <label key={g.label} className="field">
-            <span>{g.label}</span>
-            <select
-              value={g.machines.find((m) => settings.preferredMachines.includes(m)) ?? g.machines[0]}
-              onChange={(e) => setGroupMachine(g.machines, e.target.value)}
-            >
-              {g.machines.map((m) => (
-                <option key={m} value={m}>
-                  {machineName(m)}
-                </option>
-              ))}
-            </select>
-          </label>
-        ))}
-
         <label className="field">
           <span>Proliferator</span>
           <select
@@ -58,7 +36,6 @@ export function SettingsPanel({ settings, onChange, unit, onUnit }: Props) {
           <span>โหมด Proliferator</span>
           <select
             value={settings.proliferator.mode}
-            disabled={settings.proliferator.level === 0}
             onChange={(e) =>
               onChange({
                 ...settings,
@@ -69,6 +46,7 @@ export function SettingsPanel({ settings, onChange, unit, onUnit }: Props) {
             <option value="productivity">Extra Products (ได้ของเพิ่ม)</option>
             <option value="speed">Production Speedup (เร็วขึ้น)</option>
           </select>
+          {settings.proliferator.level === 0 && <small className="field-hint">มีผลเมื่อเลือกระดับ Proliferator</small>}
         </label>
       </div>
 
